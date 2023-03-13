@@ -52,11 +52,11 @@ const NavBar = () => {
               <i className="fas fa-chart-pie icon"></i> Charts
             </li>
           </ul> */}
-          <button>ABOUT ME</button>
-          <button>TECNOLOGIES</button>
-          <button>PROYECTS</button>
-          <button>HOVER ME</button>
-          <button>HOVER ME</button>
+          <button className="button">ABOUT ME</button>
+          <button className="button">TECNOLOGIES</button>
+          <button className="button">PROYECTS</button>
+          <button className="button">HOVER ME</button>
+          <button className="button">HOVER ME</button>
         </div>
       </div>
     </div>

@@ -85,7 +85,7 @@ li:hover{
   cursor: pointer;
 } */
 
-button {
+.button {
     margin: 20px 20px 20px 20px;
     padding: 20px;
     display: block;
@@ -98,11 +98,11 @@ button {
     font-family: 'Poppins', sans-serif;
   }
   
-  button::before {
+  .button::before {
     margin-left: auto;
   }
   
-  button::after, button::before {
+  .button::after, .button::before {
     content: '';
     width: 0%;
     height: 2px;
@@ -111,6 +111,6 @@ button {
     transition: 0.5s;
   }
   
-  button:hover::after, button:hover::before {
+  .button:hover::after, .button:hover::before {
     width: 100%;
   }

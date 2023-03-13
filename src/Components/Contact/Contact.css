@@ -1,0 +1,99 @@
+.Linkedin {
+    cursor: pointer;
+    background-color: #0077B5;
+    border: 1px solid #0077B5;
+    padding: 5px;
+    position: relative;
+    width: 7.2em;
+    height: 2em;
+    transition: 0.5s;
+    font-size: 17px;
+    border-radius: 0.4em;
+  }
+  
+  .Linkedin p {
+    position: absolute;
+    top: 0.4em;
+    left: 1.2em;
+    margin: 0;
+    padding: 0;
+    transition: .5s;
+    color: #fff;
+  }
+  
+  .Linkedin svg {
+    position: absolute;
+    top: 0.45em;
+    right: 0.5em;
+    margin: 0;
+    padding: 0;
+    opacity: 0;
+    transition: 0.5s;
+    height: 1em;
+    fill: #fff
+  }
+  
+  .Linkedin:hover p {
+    left: 0.6em;
+    color: #0077B5
+  }
+  
+  button:hover svg {
+    opacity: 1;
+  }
+  
+  .Linkedin:hover {
+    background-color: #fff;
+  }
+
+
+
+
+  .GitHub {
+    cursor: pointer;
+    background-color: #24292e;
+    border: 1px solid #24292e;
+    padding: 5px;
+    position: relative;
+    width: 7.2em;
+    height: 2em;
+    transition: 0.5s;
+    font-size: 17px;
+    border-radius: 0.4em;
+  }
+  
+  .GitHub p {
+    position: absolute;
+    top: 0.4em;
+    left: 1.2em;
+    margin: 0;
+    padding: 0;
+    transition: .5s;
+    color: #fff;
+  }
+  
+  .GitHub svg {
+    position: absolute;
+    top: 0.45em;
+    right: 0.5em;
+    margin: 0;
+    padding: 0;
+    opacity: 0;
+    transition: 0.5s;
+    height: 1em;
+    fill: #fff
+  }
+  
+  .GitHub:hover p {
+    left: 0.6em;
+    color: #24292e
+  }
+  
+  button:hover svg {
+    opacity: 1;
+  }
+  
+  .GitHub:hover {
+    background-color: #fff;
+  }
+  
