@@ -3,7 +3,6 @@ import React from "react";
 import "./NavBar.css";
 
 const NavBar = () => {
-  console.log(process.env);
   return (
     // <div className="navBody">
     //   <img
@@ -25,9 +24,9 @@ const NavBar = () => {
           />
         </div>
         {/* <div className="body"> */}
-        <div class="dropdown">
+        <div className="dropdown">
           <button className="burger-menu">☰</button>
-          <ul class="dropdown-menu">
+          <ul className="dropdown-menu">
             <li>
               <a href="#">ABOUT ME</a>
             </li>
