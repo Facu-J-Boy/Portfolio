@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
 import "./NavBar.css";
 
@@ -23,8 +24,22 @@ const NavBar = () => {
             alt={"imagen"}
           />
         </div>
-        <div className="body">
-          {/* <ul>
+        {/* <div className="body"> */}
+        <div class="dropdown">
+          <button className="burger-menu">☰</button>
+          <ul class="dropdown-menu">
+            <li>
+              <a href="#">ABOUT ME</a>
+            </li>
+            <li>
+              <a href="#">TECNOLOGIES</a>
+            </li>
+            <li>
+              <a href="#">PROYECTS</a>
+            </li>
+          </ul>
+        </div>
+        {/* <ul>
             <li>
               <i className="fas fa-home icon"></i> Home
             </li>
@@ -52,14 +67,14 @@ const NavBar = () => {
               <i className="fas fa-chart-pie icon"></i> Charts
             </li>
           </ul> */}
-          <button className="button">ABOUT ME</button>
-          <button className="button">TECNOLOGIES</button>
-          <button className="button">PROYECTS</button>
-          <button className="button">HOVER ME</button>
-          <button className="button">HOVER ME</button>
-        </div>
+        <button className="button">ABOUT ME</button>
+        <button className="button">TECNOLOGIES</button>
+        <button className="button">PROYECTS</button>
+        <button className="button">HOVER ME</button>
+        <button className="button">HOVER ME</button>
       </div>
     </div>
+    // </div>
   );
 };
 
