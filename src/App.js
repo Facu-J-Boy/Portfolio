@@ -1,11 +1,11 @@
-import Contact from './Components/Contact/Contact';
 import NavBar from './Components/NavBar/NavBar';
+import Technologies from './Components/Technologies/Technologies';
 
 function App() {
   return (
     <div >
       <NavBar /> 
-      <Contact />
+      <Technologies />
     </div>
   );
 }

@@ -1,3 +1,8 @@
+.contacts-btn {
+  position: fixed;
+  margin-top: 700px;
+}
+
 .Linkedin {
     cursor: pointer;
     background-color: #0077B5;
@@ -112,12 +117,14 @@
 
     .icons {
       display: flex;
+      z-index: 1;
       width: 50%;
       margin-left: 25%;
       align-items: center;
       justify-content: center;
-      position: relative;
-      bottom: 50px;
+      position: fixed;
+      top: 20px;
+      /* bottom: 50px; */
     }
 
     .icon-btn {

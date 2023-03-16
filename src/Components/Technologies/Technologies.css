@@ -1,0 +1,27 @@
+.Component {
+    display: flex;
+    position: absolute;
+    margin-left: 20%;
+    margin-bottom: 50px;
+    justify-content: space-around;
+    height: 100%;
+    width: 80%;
+    background-color: #556e7e;
+    /* border: solid; */
+}
+
+.Technologies img {
+    /* align-items: center; */
+    margin: 15px;
+    height: 15%;
+    width: 15%;
+}
+
+@media screen and (max-width: 768px) {
+    .Component {
+        width: 100%;
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top: 80px;
+    }
+}
