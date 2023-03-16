@@ -4,16 +4,16 @@
         logo: `${process.env.REACT_APP_CLOUDINARY}/js-logo_sysaec.svg`
     },
     {
-        name: "React",
-        logo: `${process.env.REACT_APP_CLOUDINARY}/react_trp720.svg`
-    },
-    {
         name: "HTML",
         logo: `${process.env.REACT_APP_CLOUDINARY}/HTML5_logo_resized_dtzf7i.svg`
     },
     {
         name: "CSS",
         logo: `${process.env.REACT_APP_CLOUDINARY}/css-3-logo-svg-vector_rlcyyj.svg` 
+    },
+    {
+        name: "React",
+        logo: `${process.env.REACT_APP_CLOUDINARY}/react_trp720.svg`
     },
     {
         name: "Redux",
