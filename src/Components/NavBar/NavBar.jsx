@@ -6,16 +6,6 @@ import "./NavBar.css";
 
 const NavBar = () => {
   return (
-    // <div className="navBody">
-    //   <img
-    //     className="profileImage"
-    //     src={process.env.REACT_APP_PROFILE}
-    //     alt={"imagen"}
-    //   />
-    //   <div></div>
-    //   <div></div>
-    //   <div></div>
-    // </div>
     <>
       <div className="container">
         <div className="card">
@@ -26,7 +16,6 @@ const NavBar = () => {
               alt={"imagen"}
             />
           </div>
-          {/* <div className="body"> */}
           <div className="dropdown">
             <button className="burger-menu">☰</button>
             <ul className="dropdown-menu">
@@ -60,7 +49,6 @@ const NavBar = () => {
       </div>
       <Contact />
     </>
-    // </div>
   );
 };
 
