@@ -104,15 +104,16 @@ li:hover{
 
 .button {
     margin: 20px 20px 20px 20px;
+    cursor: pointer;
     padding: 20px;
     display: block;
     color: white;
-    text-decoration: none;
     font-size: 25px;
     border: none;
     background: none;
     font-weight: 600;
     font-family: 'Poppins', sans-serif;
+    text-decoration: none;
   }
   
   .button::before {
@@ -187,6 +188,11 @@ li:hover{
 
   .button{
     display: none;
+    text-decoration-line: none;
+  }
+
+  .buttonsArea {
+    display: none;
   }
 
   .card{
@@ -197,5 +203,6 @@ li:hover{
     align-items: center;
     justify-content: space-between;
     flex-direction: row-reverse;
+    text-decoration: none;
   }
   }

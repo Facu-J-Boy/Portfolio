@@ -1,10 +1,10 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
+import { Link } from "react-router-dom";
 import Contact from "../Contact/Contact";
 import "./NavBar.css";
 
 const NavBar = () => {
-  console.log(process.env);
   return (
     // <div className="navBody">
     //   <img
@@ -30,50 +30,32 @@ const NavBar = () => {
           <div className="dropdown">
             <button className="burger-menu">☰</button>
             <ul className="dropdown-menu">
-              <li>
-                <a href="#">ABOUT ME</a>
-              </li>
-              <li>
-                <a href="#">TECHNOLOGIES</a>
-              </li>
+              <Link to={"/aboutme"} style={{ textDecoration: "none" }}>
+                <li>
+                  <a href="#">ABOUT ME</a>
+                </li>
+              </Link>
+              <Link to={"/technologies"} style={{ textDecoration: "none" }}>
+                <li>
+                  <a href="#">TECHNOLOGIES</a>
+                </li>
+              </Link>
               <li>
                 <a href="#">PROYECTS</a>
               </li>
             </ul>
           </div>
-          {/* <ul>
-            <li>
-              <i className="fas fa-home icon"></i> Home
-            </li>
-            <li>
-              <i className="fas fa-underline icon"></i> Tipography
-            </li>
-            <li>
-              <i className="fas fa-boxes icon"></i> Widgets
-            </li>
-            <li>
-              <i className="fas fa-table icon"></i> Tables
-            </li>
-            <li>
-              <i className="fab fa-wpforms icon"></i> Forms
-              <ul>
-                <li>
-                  <i className="fas fa-pencil-alt icon"></i> First form
-                </li>
-                <li>
-                  <i className="fas fa-paper-plane icon"></i> Second form
-                </li>
-              </ul>
-            </li>
-            <li>
-              <i className="fas fa-chart-pie icon"></i> Charts
-            </li>
-          </ul> */}
-          <button className="button">ABOUT ME</button>
-          <button className="button">TECHNOLOGIES</button>
-          <button className="button">PROYECTS</button>
-          <button className="button">HOVER ME</button>
-          <button className="button">HOVER ME</button>
+          <div className="buttonsArea">
+            <Link to={"/aboutme"} style={{ textDecoration: "none" }}>
+              <button className="button">ABOUT ME</button>
+            </Link>
+            <Link to={"/technologies"} style={{ textDecoration: "none" }}>
+              <button className="button">TECHNOLOGIES</button>
+            </Link>
+            <button className="button">PROYECTS</button>
+            <button className="button">HOVER ME</button>
+            <button className="button">HOVER ME</button>
+          </div>
         </div>
       </div>
       <Contact />

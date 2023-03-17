@@ -2,17 +2,12 @@
     position: absolute;
     margin-left: 20%;
     word-wrap: break-word;
-    margin-bottom: 50px;
-    height: 100%;
+    /* margin-bottom: 50px; */
+    /* height: 100%; */
     width: 70%;
     background-color: #556e7e;
-    border: solid;
     text-align: left;
-    padding: 10px;
-    align-items: center;
-}
-
-.text {
+    padding: 20px;
     align-items: center;
 }
 
@@ -24,4 +19,22 @@
 .component p {
     color: #fff;
     font-size: 30px;
+}
+
+@media screen and (max-width: 768px) {
+    .component {
+        width: 90%;
+        /* height: 100%; */
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top: 80px;
+    }
+
+    .component h1 {
+        font-size: 40px;
+    }
+
+    .component p {
+        font-size: 20px;
+    }
 }
