@@ -5,6 +5,7 @@ import Contact from "../Contact/Contact";
 import "./NavBar.css";
 
 const NavBar = () => {
+  console.log(process.env);
   return (
     <>
       <div className="container">
