@@ -23,8 +23,8 @@
 
 @media screen and (max-width: 768px) {
     .component {
+        align-self: center;
         width: 90%;
-        /* height: 100%; */
         margin-left: 0px;
         margin-right: 0px;
         margin-top: 80px;
