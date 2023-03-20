@@ -4,16 +4,11 @@
     margin-left: 320px;
     margin-right: 20px;
     margin-top: 20px;
-    /* margin-bottom: 50px; */
     justify-content: space-around;
-    /* height: 100%; */
-    /* width: 70%; */
     background-color: #556e7e;
-    /* border: solid; */
 }
 
 .Technologies img {
-    /* align-items: center; */
     margin: 15px;
     height: 15%;
     width: 15%;
