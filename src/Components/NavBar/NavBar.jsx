@@ -1,11 +1,25 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
 import { Link } from "react-router-dom";
+import Swal from "sweetalert2";
 import Contact from "../Contact/Contact";
 import "./NavBar.css";
 
 const NavBar = () => {
   console.log(process.env);
+
+  const modal = () => {
+    Swal.fire({
+      imageUrl: `${process.env.REACT_APP_PROFILE}`,
+      imageWidth: 500,
+      imageHeight: 500,
+      imageAlt: "Custom image",
+      width: "500px",
+      height: "500px",
+      showConfirmButton: false,
+    });
+  };
+
   return (
     <>
       <div className="container">
@@ -15,6 +29,7 @@ const NavBar = () => {
               className="profileImage"
               src={process.env.REACT_APP_PROFILE}
               alt={"imagen"}
+              onClick={() => modal()}
             />
           </div>
           <div className="dropdown">
@@ -22,29 +37,29 @@ const NavBar = () => {
             <ul className="dropdown-menu">
               <Link to={"/aboutme"} style={{ textDecoration: "none" }}>
                 <li>
-                  <a href="#">ABOUT ME</a>
+                  <a href="#">SOBRE MI</a>
                 </li>
               </Link>
               <Link to={"/technologies"} style={{ textDecoration: "none" }}>
                 <li>
-                  <a href="#">TECHNOLOGIES</a>
+                  <a href="#">TECNOLOGIAS</a>
                 </li>
               </Link>
               <li>
-                <a href="#">PROYECTS</a>
+                <a href="#">PROYECTOS</a>
               </li>
             </ul>
           </div>
           <div className="buttonsArea">
             <Link to={"/aboutme"} style={{ textDecoration: "none" }}>
-              <button className="button">ABOUT ME</button>
+              <button className="button">SOBRE MI</button>
             </Link>
             <Link to={"/technologies"} style={{ textDecoration: "none" }}>
-              <button className="button">TECHNOLOGIES</button>
+              <button className="button">TECNOLOGIAS</button>
             </Link>
-            <button className="button">PROYECTS</button>
-            <button className="button">HOVER ME</button>
-            <button className="button">HOVER ME</button>
+            <button className="button">PROYECTOS</button>
+            {/* <button className="button">HOVER ME</button>
+            <button className="button">HOVER ME</button> */}
           </div>
         </div>
       </div>

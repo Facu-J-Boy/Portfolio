@@ -11,6 +11,7 @@
 }
 
 .profileImage{
+  cursor: pointer;
     align-self: center;
     height: 150px;
     width: 150px;
