@@ -51,9 +51,6 @@
     background-color: #fff;
   }
 
-
-
-
   .GitHub {
     cursor: pointer;
     background-color: #24292e;
@@ -124,7 +121,6 @@
       justify-content: center;
       position: fixed;
       top: 20px;
-      /* bottom: 50px; */
     }
 
     .icon-btn {

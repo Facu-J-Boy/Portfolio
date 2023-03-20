@@ -2,8 +2,6 @@
     position: absolute;
     margin-left: 20%;
     word-wrap: break-word;
-    /* margin-bottom: 50px; */
-    /* height: 100%; */
     width: 70%;
     background-color: #556e7e;
     text-align: left;
@@ -24,7 +22,7 @@
 @media screen and (max-width: 768px) {
     .component {
         align-self: center;
-        width: 90%;
+        width: 89%;
         margin-left: 0px;
         margin-right: 0px;
         margin-top: 80px;

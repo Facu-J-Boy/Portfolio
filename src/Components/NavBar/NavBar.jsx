@@ -11,11 +11,12 @@ const NavBar = () => {
   const modal = () => {
     Swal.fire({
       imageUrl: `${process.env.REACT_APP_PROFILE}`,
-      imageWidth: 500,
-      imageHeight: 500,
-      imageAlt: "Custom image",
-      width: "500px",
-      height: "500px",
+      imageAlt: "Facundo Boy",
+      customClass: {
+        image: "swal-img",
+      },
+      width: "800px",
+      height: "800px",
       showConfirmButton: false,
     });
   };
