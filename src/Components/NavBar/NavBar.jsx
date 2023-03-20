@@ -17,6 +17,7 @@ const NavBar = () => {
       },
       width: "800px",
       height: "800px",
+      background: "none",
       showConfirmButton: false,
     });
   };
