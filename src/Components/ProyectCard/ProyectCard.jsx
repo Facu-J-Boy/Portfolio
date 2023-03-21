@@ -6,6 +6,9 @@ const ProyectCard = ({ name, image }) => {
     <div className="proyect-card">
       <h1>{name}</h1>
       <img src={`${image}`} alt="imagen" />
+      <button>
+        <span>Ver</span>
+      </button>
     </div>
   );
 };
