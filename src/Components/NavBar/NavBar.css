@@ -5,8 +5,8 @@
 .profileImage{
   cursor: pointer;
   align-self: center;
-  height: 150px;
-  width: 150px;
+  height: 250px;
+  width: 250px;
   border-radius: 150px;
   object-fit: cover;
   margin: 10px auto;
@@ -33,7 +33,7 @@ body.swal2-shown > [aria-hidden="true"] {
 
 .card{
   z-index: 1;
-    width: 300px;
+    width: 400px;
     background-color: #1E2B32;
     position: fixed;
     margin-bottom: 10px;
