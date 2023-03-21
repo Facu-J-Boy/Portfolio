@@ -1,0 +1,15 @@
+.component-proyect {
+    display: inline;
+    position: absolute;
+    width: 100%;
+}
+
+.proyects {
+    display: flex;
+    position: relative;
+    justify-content: flex-start;
+    background-color: #556e7e;
+    margin-top: 20px;
+    margin-left: 320px;
+    margin-right: 20px;
+}

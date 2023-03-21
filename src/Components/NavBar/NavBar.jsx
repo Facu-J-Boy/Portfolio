@@ -47,9 +47,11 @@ const NavBar = () => {
                   <a href="#">TECNOLOGIAS</a>
                 </li>
               </Link>
-              <li>
-                <a href="#">PROYECTOS</a>
-              </li>
+              <Link to={"/proyects"} style={{ textDecoration: "none" }}>
+                <li>
+                  <a href="#">PROYECTOS</a>
+                </li>
+              </Link>
             </ul>
           </div>
           <div className="buttonsArea">
@@ -59,7 +61,9 @@ const NavBar = () => {
             <Link to={"/technologies"} style={{ textDecoration: "none" }}>
               <button className="button">TECNOLOGIAS</button>
             </Link>
-            <button className="button">PROYECTOS</button>
+            <Link to={"/proyects"} style={{ textDecoration: "none" }}>
+              <button className="button">PROYECTOS</button>
+            </Link>
             {/* <button className="button">HOVER ME</button>
             <button className="button">HOVER ME</button> */}
           </div>

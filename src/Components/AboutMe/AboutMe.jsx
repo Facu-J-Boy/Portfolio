@@ -3,7 +3,7 @@ import "./AboutMe.css";
 
 const AboutMe = () => {
   return (
-    <div className="component">
+    <div className="component-aboutMe">
       <h1>¿Quien soy?</h1>
       <p>
         Mi nombre es Facundo Boy, soy de Argentina y soy fullstack developer,

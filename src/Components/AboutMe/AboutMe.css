@@ -1,4 +1,4 @@
-.component {
+.component-aboutMe {
     position: absolute;
     margin-left: 320px;
     margin-right: 20px;
@@ -10,18 +10,18 @@
     align-items: center;
 }
 
-.component h1 {
+.component-aboutMe h1 {
     color: #1E2B32;
     font-size: 50px;
 }
 
-.component p {
+.component-aboutMe p {
     color: #fff;
     font-size: 30px;
 }
 
 @media screen and (max-width: 768px) {
-    .component {
+    .component-aboutMe {
         align-self: center;
         width: 89%;
         margin-left: 0px;
@@ -29,11 +29,11 @@
         margin-top: 80px;
     }
 
-    .component h1 {
+    .component-aboutMe h1 {
         font-size: 40px;
     }
 
-    .component p {
+    .component-aboutMe p {
         font-size: 20px;
     }
 }

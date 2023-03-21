@@ -1,4 +1,4 @@
-.Component {
+.Component-technologie {
     display: flex;
     position: absolute;
     margin-left: 320px;
@@ -15,7 +15,7 @@
 }
 
 @media screen and (max-width: 768px) {
-    .Component {
+    .Component-technologie {
         width: 100%;
         margin-left: 0px;
         margin-right: 0px;

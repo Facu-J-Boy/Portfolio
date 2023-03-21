@@ -1,7 +1,13 @@
 import React from "react";
+import "./ProyectCard.css";
 
-const ProyectCard = () => {
-  return <div className="card">ProyectCard</div>;
+const ProyectCard = ({ name, image }) => {
+  return (
+    <div className="proyect-card">
+      <h1>{name}</h1>
+      <img src={`${image}`} alt="imagen" />
+    </div>
+  );
 };
 
 export default ProyectCard;

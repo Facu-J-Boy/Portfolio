@@ -4,7 +4,7 @@ import TechSkills from "./TechSkills";
 
 const Technologies = () => {
   return (
-    <div className="Component">
+    <div className="Component-technologie">
       <div className="Technologies">
         {TechSkills.map((tech) => (
           <img key={tech.name} src={tech.logo} alt={tech.name} />
