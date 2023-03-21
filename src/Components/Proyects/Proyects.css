@@ -7,10 +7,23 @@
 .proyects {
     display: flex;
     position: relative;
+    flex-wrap: wrap;
     justify-content: flex-start;
     background-color: #556e7e;
     margin-top: 20px;
     margin-left: 320px;
     margin-right: 20px;
     padding: 10px;
+}
+
+@media screen and (max-width: 768px) {
+    .component-proyect {
+        display: block;
+    }
+
+    .proyects {
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top: 80px;
+    }
 }
