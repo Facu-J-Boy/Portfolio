@@ -8,7 +8,6 @@
     display: flex;
     position: relative;
     flex-wrap: wrap;
-    justify-content: flex-start;
     background-color: #556e7e;
     margin-top: 20px;
     margin-right: 20px;
@@ -18,6 +17,7 @@
 @media screen and (max-width: 768px) {
     .component-proyect {
         display: block;
+        margin-left: 0px;
     }
 
     .proyects {
