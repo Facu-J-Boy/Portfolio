@@ -4,12 +4,13 @@
 
 .profileImage{
   cursor: pointer;
-    align-self: center;
-    height: 150px;
-    width: 150px;
-    border-radius: 150px;
-    object-fit: cover;
-    margin: 10px;
+  align-self: center;
+  height: 150px;
+  width: 150px;
+  border-radius: 150px;
+  object-fit: cover;
+  margin: 10px auto;
+  margin-left: 50px;
 } 
 
 body.swal2-shown > [aria-hidden="true"] {
