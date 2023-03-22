@@ -180,6 +180,10 @@
       display: none;
     }
 
+    .download {
+      display: none;
+    }
+
     .icons {
       display: flex;
       z-index: 1;

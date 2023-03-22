@@ -35,6 +35,22 @@ const Contact = () => {
             </svg>
           </button>
         </a>
+        <button className="icon-btn">
+          <svg viewBox="0 0 100 100">
+            <circle cx="50" cy="50" r="50" fill="#007bff" />
+            <text
+              x="50"
+              y="60"
+              fill="#ffffff"
+              font-size="50"
+              font-weight="bold"
+              text-anchor="middle"
+              dominant-baseline="middle"
+            >
+              CV
+            </text>
+          </svg>
+        </button>
       </div>
       <div className="contacts-btn">
         <a href={`${process.env.REACT_APP_LINKEDIN_URL}`}>
