@@ -42,10 +42,10 @@ const Contact = () => {
               x="50"
               y="60"
               fill="#ffffff"
-              font-size="50"
-              font-weight="bold"
-              text-anchor="middle"
-              dominant-baseline="middle"
+              fontSize="50"
+              fontWeight="bold"
+              textAnchor="middle"
+              dominantBaseline="middle"
             >
               CV
             </text>
@@ -85,14 +85,14 @@ const Contact = () => {
             </svg>
           </button>
         </a>
-        <button class="download-button">
-          <div class="docs">
+        <button className="download-button">
+          <div className="docs">
             <svg
-              class="css-i6dzq1"
-              stroke-linejoin="round"
-              stroke-linecap="round"
+              className="css-i6dzq1"
+              strokeLinejoin="round"
+              strokeLinecap="round"
               fill="none"
-              stroke-width="2"
+              strokeWidth="2"
               stroke="currentColor"
               height="20"
               width="20"
@@ -109,10 +109,10 @@ const Contact = () => {
           <div className="download">
             <svg
               className="css-i6dzq1"
-              stroke-linejoin="round"
-              stroke-linecap="round"
+              strokeLinejoin="round"
+              strokeLinecap="round"
               fill="none"
-              stroke-width="2"
+              strokeWidth="2"
               stroke="currentColor"
               height="24"
               width="24"
