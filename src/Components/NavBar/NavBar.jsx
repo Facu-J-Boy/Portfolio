@@ -1,6 +1,5 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
-// import { Link } from "react-router-dom";
 import Swal from "sweetalert2";
 import Contact from "../Contact/Contact";
 import "./NavBar.css";
@@ -11,7 +10,7 @@ const NavBar = () => {
   const scrollToProyect = () => {
     const titleElement = document.getElementById("proyect-title");
     if (titleElement) {
-      const yOffset = -100; // adjust this value to set the scroll offset
+      const yOffset = -100;
       const y =
         titleElement.getBoundingClientRect().top + window.pageYOffset + yOffset;
       window.scrollTo({ top: y, behavior: "smooth" });
@@ -21,7 +20,7 @@ const NavBar = () => {
   const scrollToAboutMe = () => {
     const titleElement = document.getElementById("aboutMe-title");
     if (titleElement) {
-      const yOffset = -100; // adjust this value to set the scroll offset
+      const yOffset = -100;
       const y =
         titleElement.getBoundingClientRect().top + window.pageYOffset + yOffset;
       window.scrollTo({ top: y, behavior: "smooth" });
@@ -31,7 +30,7 @@ const NavBar = () => {
   const scrollToTechnologies = () => {
     const titleElement = document.getElementById("Technologies-title");
     if (titleElement) {
-      const yOffset = -100; // adjust this value to set the scroll offset
+      const yOffset = -100;
       const y =
         titleElement.getBoundingClientRect().top + window.pageYOffset + yOffset;
       window.scrollTo({ top: y, behavior: "smooth" });
@@ -67,45 +66,33 @@ const NavBar = () => {
           <div className="dropdown">
             <button className="burger-menu">☰</button>
             <ul className="dropdown-menu">
-              {/* <Link to={"/aboutme"} style={{ textDecoration: "none" }}> */}
               <li>
                 <a href="#" onClick={scrollToAboutMe}>
                   SOBRE MI
                 </a>
               </li>
-              {/* </Link> */}
-              {/* <Link to={"/technologies"} style={{ textDecoration: "none" }}> */}
               <li>
                 <a href="#" onClick={scrollToTechnologies}>
                   TECNOLOGIAS
                 </a>
               </li>
-              {/* </Link> */}
-              {/* <Link to={"/proyects"} style={{ textDecoration: "none" }}> */}
               <li>
                 <a href="#" onClick={scrollToProyect}>
                   PROYECTOS
                 </a>
               </li>
-              {/* </Link> */}
             </ul>
           </div>
           <div className="buttonsArea">
-            {/* <Link to={"/aboutme"} style={{ textDecoration: "none" }}> */}
             <button className="button" onClick={scrollToAboutMe}>
               SOBRE MI
             </button>
-            {/* </Link> */}
-            {/* <Link to={"/technologies"} style={{ textDecoration: "none" }}> */}
             <button className="button" onClick={scrollToTechnologies}>
               TECNOLOGIAS
             </button>
-            {/* </Link> */}
-            {/* <Link to={"/proyects"} style={{ textDecoration: "none" }}> */}
             <button className="button" onClick={scrollToProyect}>
               PROYECTOS
             </button>
-            {/* </Link> */}
             {/* <button className="button">HOVER ME</button>
             <button className="button">HOVER ME</button> */}
           </div>
