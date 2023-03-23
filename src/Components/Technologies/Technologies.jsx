@@ -4,13 +4,16 @@ import TechSkills from "./TechSkills";
 
 const Technologies = () => {
   return (
-    <div className="Component-technologie">
-      <div className="Technologies">
-        {TechSkills.map((tech) => (
-          <img key={tech.name} src={tech.logo} alt={tech.name} />
-        ))}
+    <>
+      <h1 id="Technologies-title">TECNOLOGIAS</h1>
+      <div className="Component-technologie">
+        <div className="Technologies">
+          {TechSkills.map((tech) => (
+            <img key={tech.name} src={tech.logo} alt={tech.name} />
+          ))}
+        </div>
       </div>
-    </div>
+    </>
   );
 };
 

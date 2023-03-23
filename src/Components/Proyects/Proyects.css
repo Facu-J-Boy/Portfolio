@@ -4,7 +4,7 @@
     margin-left: 420px;
 }
 
-.proyects {
+.all-proyects {
     display: flex;
     position: relative;
     flex-wrap: wrap;
@@ -20,7 +20,7 @@
         margin-left: 0px;
     }
 
-    .proyects {
+    .all-proyects {
         margin-left: 0px;
         margin-right: 0px;
         margin-top: 80px;

@@ -8,6 +8,36 @@ import "./NavBar.css";
 const NavBar = () => {
   console.log(process.env);
 
+  const scrollToProyect = () => {
+    const titleElement = document.getElementById("proyect-title");
+    if (titleElement) {
+      const yOffset = -100; // adjust this value to set the scroll offset
+      const y =
+        titleElement.getBoundingClientRect().top + window.pageYOffset + yOffset;
+      window.scrollTo({ top: y, behavior: "smooth" });
+    }
+  };
+
+  const scrollToAboutMe = () => {
+    const titleElement = document.getElementById("aboutMe-title");
+    if (titleElement) {
+      const yOffset = -100; // adjust this value to set the scroll offset
+      const y =
+        titleElement.getBoundingClientRect().top + window.pageYOffset + yOffset;
+      window.scrollTo({ top: y, behavior: "smooth" });
+    }
+  };
+
+  const scrollToTechnologies = () => {
+    const titleElement = document.getElementById("Technologies-title");
+    if (titleElement) {
+      const yOffset = -100; // adjust this value to set the scroll offset
+      const y =
+        titleElement.getBoundingClientRect().top + window.pageYOffset + yOffset;
+      window.scrollTo({ top: y, behavior: "smooth" });
+    }
+  };
+
   const modal = () => {
     Swal.fire({
       imageUrl: `${process.env.REACT_APP_PROFILE}`,
@@ -56,13 +86,19 @@ const NavBar = () => {
           </div>
           <div className="buttonsArea">
             {/* <Link to={"/aboutme"} style={{ textDecoration: "none" }}> */}
-            <button className="button">SOBRE MI</button>
+            <button className="button" onClick={scrollToAboutMe}>
+              SOBRE MI
+            </button>
             {/* </Link> */}
             {/* <Link to={"/technologies"} style={{ textDecoration: "none" }}> */}
-            <button className="button">TECNOLOGIAS</button>
+            <button className="button" onClick={scrollToTechnologies}>
+              TECNOLOGIAS
+            </button>
             {/* </Link> */}
             {/* <Link to={"/proyects"} style={{ textDecoration: "none" }}> */}
-            <button className="button">PROYECTOS</button>
+            <button className="button" onClick={scrollToProyect}>
+              PROYECTOS
+            </button>
             {/* </Link> */}
             {/* <button className="button">HOVER ME</button>
             <button className="button">HOVER ME</button> */}

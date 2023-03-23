@@ -1,8 +1,10 @@
+#aboutMe-title {
+    margin-left: 420px;
+}
+
 .component-aboutMe {
-    /* position: absolute; */
     margin-left: 420px;
     margin-right: 20px;
-    /* margin-top: 20px; */
     word-wrap: break-word;
     background-color: #556e7e;
     text-align: left;
