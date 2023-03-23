@@ -69,17 +69,23 @@ const NavBar = () => {
             <ul className="dropdown-menu">
               {/* <Link to={"/aboutme"} style={{ textDecoration: "none" }}> */}
               <li>
-                <a href="#">SOBRE MI</a>
+                <a href="#" onClick={scrollToAboutMe}>
+                  SOBRE MI
+                </a>
               </li>
               {/* </Link> */}
               {/* <Link to={"/technologies"} style={{ textDecoration: "none" }}> */}
               <li>
-                <a href="#">TECNOLOGIAS</a>
+                <a href="#" onClick={scrollToTechnologies}>
+                  TECNOLOGIAS
+                </a>
               </li>
               {/* </Link> */}
               {/* <Link to={"/proyects"} style={{ textDecoration: "none" }}> */}
               <li>
-                <a href="#">PROYECTOS</a>
+                <a href="#" onClick={scrollToProyect}>
+                  PROYECTOS
+                </a>
               </li>
               {/* </Link> */}
             </ul>
