@@ -5,14 +5,16 @@ import allProyects from "./AllProyects";
 
 const Proyects = () => {
   return (
-    <div className="component-proyect">
+    <>
       <h1 id="proyect-title">PROYECTOS</h1>
-      <div className="all-proyects">
-        {allProyects.map((e) => {
-          return <ProyectCard key={e.name} name={e.name} image={e.image} />;
-        })}
+      <div className="component-proyect">
+        <div className="all-proyects">
+          {allProyects.map((e) => {
+            return <ProyectCard key={e.name} name={e.name} image={e.image} />;
+          })}
+        </div>
       </div>
-    </div>
+    </>
   );
 };
 

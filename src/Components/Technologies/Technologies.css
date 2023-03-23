@@ -24,11 +24,14 @@
 }
 
 @media screen and (max-width: 768px) {
+    #Technologies-title {
+        margin-left: 10px;
+    }
+
     .Component-technologie {
         width: 100%;
         margin-left: 0px;
         margin-right: 0px;
-        margin-top: 80px;
     }
 
     .Technologies img {

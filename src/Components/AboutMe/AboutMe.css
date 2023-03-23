@@ -23,12 +23,16 @@
 }
 
 @media screen and (max-width: 768px) {
+    #aboutMe-title {
+        margin-left: 10px;
+        margin-top: 70px;
+    }
+
     .component-aboutMe {
         align-self: center;
         width: 89%;
         margin-left: 0px;
         margin-right: 0px;
-        margin-top: 80px;
     }
 
     .component-aboutMe h1 {
