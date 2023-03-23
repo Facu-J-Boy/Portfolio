@@ -1,17 +1,21 @@
 .Component-technologie {
-    display: flex;
-    position: absolute;
-    margin-left: 420px;
     margin-right: 20px;
     margin-top: 20px;
-    justify-content: space-around;
     background-color: #556e7e;
 }
 
+.Technologies {
+    display: flex;
+    padding: 20px;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
 .Technologies img {
-    margin: 15px;
-    height: 15%;
-    width: 15%;
+    margin: 25px;
+    height: 130px;
+    width: 130px;
 }
 
 @media screen and (max-width: 768px) {
@@ -20,5 +24,11 @@
         margin-left: 0px;
         margin-right: 0px;
         margin-top: 80px;
+    }
+
+    .Technologies img {
+        margin: 15px;
+        height: 60px;
+        width: 60px;
     }
 }
