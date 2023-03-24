@@ -5,8 +5,6 @@ import Contact from "../Contact/Contact";
 import "./NavBar.css";
 
 const NavBar = () => {
-  console.log(process.env);
-
   const scrollToProyect = () => {
     const titleElement = document.getElementById("proyect-title");
     if (titleElement) {
@@ -93,8 +91,6 @@ const NavBar = () => {
             <button className="button" onClick={scrollToProyect}>
               PROYECTOS
             </button>
-            {/* <button className="button">HOVER ME</button>
-            <button className="button">HOVER ME</button> */}
           </div>
         </div>
       </div>

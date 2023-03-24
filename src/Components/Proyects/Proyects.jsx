@@ -9,8 +9,8 @@ const Proyects = () => {
       <h1 id="proyect-title">PROYECTOS</h1>
       <div className="component-proyect">
         <div className="all-proyects">
-          {allProyects.map((e) => {
-            return <ProyectCard key={e.name} name={e.name} image={e.image} />;
+          {allProyects.map((e, index) => {
+            return <ProyectCard key={index} name={e.name} images={e.images} />;
           })}
         </div>
       </div>

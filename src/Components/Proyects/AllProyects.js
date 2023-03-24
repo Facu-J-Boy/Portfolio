@@ -1,16 +1,24 @@
 const allProyects = [
     {
         name: "proyecto1",
-        image: "https://res.cloudinary.com/dvqh0exq6/image/upload/v1675544029/samples/landscapes/nature-mountains.jpg"
+        images: [
+            "https://res.cloudinary.com/dvqh0exq6/image/upload/v1675544029/samples/landscapes/nature-mountains.jpg",
+            "https://res.cloudinary.com/dvqh0exq6/image/upload/v1675544026/samples/landscapes/beach-boat.jpg",
+            "https://res.cloudinary.com/dvqh0exq6/image/upload/v1675544029/samples/landscapes/nature-mountains.jpg"
+        ]
     },
     {
         name: "proyecto2",
-        image: "https://res.cloudinary.com/dvqh0exq6/image/upload/v1675544026/samples/landscapes/beach-boat.jpg"
+        images: [
+            "https://res.cloudinary.com/dvqh0exq6/image/upload/v1675544026/samples/landscapes/beach-boat.jpg", 
+            "https://res.cloudinary.com/dvqh0exq6/image/upload/v1675544029/samples/landscapes/nature-mountains.jpg",
+            "https://res.cloudinary.com/dvqh0exq6/image/upload/v1675544029/samples/landscapes/nature-mountains.jpg"
+        ]
     },
-    {
-        name: "proyecto1",
-        image: "https://res.cloudinary.com/dvqh0exq6/image/upload/v1675544029/samples/landscapes/nature-mountains.jpg"
-    },
+    // {
+    //     name: "proyecto1",
+    //     image: "https://res.cloudinary.com/dvqh0exq6/image/upload/v1675544029/samples/landscapes/nature-mountains.jpg"
+    // },
     // {
     //     name: "proyecto2",
     //     image: "https://res.cloudinary.com/dvqh0exq6/image/upload/v1675544026/samples/landscapes/beach-boat.jpg"
