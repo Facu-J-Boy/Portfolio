@@ -13,7 +13,8 @@ const AboutMe = () => {
           React.js, Redux, HTML, CSS, express, sequelize y postgreSQL. Estoy en
           busca de mi primer trabajo como programador con ganas de aportar en
           nuevos proyectos, aprender más, mejorar mis habilidades y conocer
-          gente.
+          gente, tambien cuento con experiencia trabajando en equipo con
+          metodología scrum.
         </p>
         <h1>¿Qué hago?</h1>
         <p>
