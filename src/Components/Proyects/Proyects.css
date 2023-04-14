@@ -6,7 +6,7 @@
 
 .component-proyect {
     display: inline;
-    position: absolute;
+    position: relative;
     margin-left: 420px;
 }
 
@@ -17,12 +17,14 @@
     background-color: #556e7e;
     margin-top: 20px;
     margin-right: 20px;
+    margin-left: 420px;
     padding: 10px;
 }
 
 @media screen and (max-width: 768px) {
     #proyect-title {
         margin-left: 10px;
+        margin-top: 70px;
     }
 
     .component-proyect {

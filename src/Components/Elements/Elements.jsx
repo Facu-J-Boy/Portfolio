@@ -7,9 +7,9 @@ import Proyects from "../Proyects/Proyects";
 const Elements = () => {
   return (
     <div className="elements">
-      <AboutMe />
-      <Technologies />
       <Proyects />
+      <Technologies />
+      <AboutMe />
     </div>
   );
 };
