@@ -40,7 +40,7 @@ const NavBar = () => {
       imageUrl: `${process.env.REACT_APP_PROFILE}`,
       imageAlt: "Facundo Boy",
       customClass: {
-        image: "swal-img",
+        objectFit: "contain",
       },
       width: "800px",
       height: "800px",
