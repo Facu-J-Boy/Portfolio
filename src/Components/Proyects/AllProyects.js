@@ -9,45 +9,16 @@ const allProyects = [
         url: "https://pi-videogame-lyart.vercel.app"
     },
     {
-        name: "proyecto2",
+        name: "Henry-Instrument",
         images: [
-            "https://res.cloudinary.com/dvqh0exq6/image/upload/v1675544026/samples/landscapes/beach-boat.jpg", 
-            "https://res.cloudinary.com/dvqh0exq6/image/upload/v1675544029/samples/landscapes/nature-mountains.jpg",
-            "https://res.cloudinary.com/dvqh0exq6/image/upload/v1675544029/samples/landscapes/nature-mountains.jpg"
-        ]
-    },
-    // {
-    //     name: "proyecto1",
-    //     image: "https://res.cloudinary.com/dvqh0exq6/image/upload/v1675544029/samples/landscapes/nature-mountains.jpg"
-    // },
-    // {
-    //     name: "proyecto2",
-    //     image: "https://res.cloudinary.com/dvqh0exq6/image/upload/v1675544026/samples/landscapes/beach-boat.jpg"
-    // },
-    // {
-    //     name: "proyecto1",
-    //     image: "https://res.cloudinary.com/dvqh0exq6/image/upload/v1675544029/samples/landscapes/nature-mountains.jpg"
-    // },
-    // {
-    //     name: "proyecto2",
-    //     image: "https://res.cloudinary.com/dvqh0exq6/image/upload/v1675544026/samples/landscapes/beach-boat.jpg"
-    // },
-    // {
-    //     name: "proyecto1",
-    //     image: "https://res.cloudinary.com/dvqh0exq6/image/upload/v1675544029/samples/landscapes/nature-mountains.jpg"
-    // },
-    // {
-    //     name: "proyecto2",
-    //     image: "https://res.cloudinary.com/dvqh0exq6/image/upload/v1675544026/samples/landscapes/beach-boat.jpg"
-    // },
-    // {
-    //     name: "proyecto1",
-    //     image: "https://res.cloudinary.com/dvqh0exq6/image/upload/v1675544029/samples/landscapes/nature-mountains.jpg"
-    // },
-    // {
-    //     name: "proyecto2",
-    //     image: "https://res.cloudinary.com/dvqh0exq6/image/upload/v1675544026/samples/landscapes/beach-boat.jpg"
-    // }
+            `${process.env.REACT_APP_CLOUDINARY}/Captura_de_pantalla_2023-04-17_113309_kvezbm.png`, 
+            `${process.env.REACT_APP_CLOUDINARY}/Captura_de_pantalla_2023-04-17_113358_jc0a4s.png`,
+            `${process.env.REACT_APP_CLOUDINARY}/Captura_de_pantalla_2023-04-17_113444_vuupil.png`,
+            `${process.env.REACT_APP_CLOUDINARY}/Captura_de_pantalla_2023-04-17_114722_arxcau.png`,
+            `${process.env.REACT_APP_CLOUDINARY}/Captura_de_pantalla_2023-04-17_120131_bgtidx.png`
+        ],
+        url: "https://henry-instruments-nu.vercel.app"
+    }
 ]
 
 export default allProyects
