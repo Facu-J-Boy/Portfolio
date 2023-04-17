@@ -1,7 +1,7 @@
 import React from "react";
 import "./ProyectCard.css";
 
-const ProyectCard = ({ name, images }) => {
+const ProyectCard = ({ name, images, url }) => {
   return (
     <div className="proyect-card">
       <h1>{name}</h1>
@@ -10,9 +10,11 @@ const ProyectCard = ({ name, images }) => {
           <img key={index} className="slider-item" src={`${el}`} alt="imagen" />
         ))}
       </div>
-      <button>
-        <span>Ver</span>
-      </button>
+      <a href={url}>
+        <button>
+          <span>Ver</span>
+        </button>
+      </a>
     </div>
   );
 };

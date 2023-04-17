@@ -10,7 +10,14 @@ const Proyects = () => {
       <div className="component-proyect">
         <div className="all-proyects">
           {allProyects.map((e, index) => {
-            return <ProyectCard key={index} name={e.name} images={e.images} />;
+            return (
+              <ProyectCard
+                key={index}
+                name={e.name}
+                images={e.images}
+                url={e.url}
+              />
+            );
           })}
         </div>
       </div>
