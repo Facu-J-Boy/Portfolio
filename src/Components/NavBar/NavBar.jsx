@@ -65,8 +65,8 @@ const NavBar = () => {
             <button className="burger-menu">☰</button>
             <ul className="dropdown-menu">
               <li>
-                <a href="#" onClick={scrollToAboutMe}>
-                  SOBRE MI
+                <a href="#" onClick={scrollToProyect}>
+                  PROYECTOS
                 </a>
               </li>
               <li>
@@ -75,21 +75,21 @@ const NavBar = () => {
                 </a>
               </li>
               <li>
-                <a href="#" onClick={scrollToProyect}>
-                  PROYECTOS
+                <a href="#" onClick={scrollToAboutMe}>
+                  SOBRE MI
                 </a>
               </li>
             </ul>
           </div>
           <div className="buttonsArea">
-            <button className="button" onClick={scrollToAboutMe}>
-              SOBRE MI
+            <button className="button" onClick={scrollToProyect}>
+              PROYECTOS
             </button>
             <button className="button" onClick={scrollToTechnologies}>
               TECNOLOGIAS
             </button>
-            <button className="button" onClick={scrollToProyect}>
-              PROYECTOS
+            <button className="button" onClick={scrollToAboutMe}>
+              SOBRE MI
             </button>
           </div>
         </div>
