@@ -32,10 +32,6 @@
         logo: `${process.env.REACT_APP_CLOUDINARY}/nodejs_ore6vb.svg`
     },
     {
-        name: "Git",
-        logo: `${process.env.REACT_APP_CLOUDINARY}/Git-logo_k8aryd.svg`
-    },
-    {
         name: "PostgreSQL",
         logo: `${process.env.REACT_APP_CLOUDINARY}/postgresql-vertical-logo_zcjxwt.svg`
     },
@@ -50,6 +46,10 @@
     {
         name: "Tailwind CSS",
         logo: `${process.env.REACT_APP_CLOUDINARY}/tailwindcss_r9ldtk.svg`
+    },
+    {
+        name: "Git",
+        logo: `${process.env.REACT_APP_CLOUDINARY}/Git-logo_k8aryd.svg`
     }
 ]
 
