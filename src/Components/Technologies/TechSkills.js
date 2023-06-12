@@ -40,6 +40,10 @@
         logo: `${process.env.REACT_APP_CLOUDINARY}/postgresql-vertical-logo_zcjxwt.svg`
     },
     {
+        name: "Sequelize",
+        logo: `${process.env.REACT_APP_CLOUDINARY}/sequelize_mrxmff.svg`
+    },
+    {
         name: "Bootstrap",
         logo: `${process.env.REACT_APP_CLOUDINARY}/bootstrap-5_d9vk55.svg`
     },
