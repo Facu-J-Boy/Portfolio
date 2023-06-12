@@ -12,6 +12,10 @@
         logo: `${process.env.REACT_APP_CLOUDINARY}/css-3-logo-svg-vector_rlcyyj.svg` 
     },
     {
+        name: "Typescript",
+        logo: `${process.env.REACT_APP_CLOUDINARY}/Typescript_logo_2020_fv13cg.svg`
+    },
+    {
         name: "React",
         logo: `${process.env.REACT_APP_CLOUDINARY}/react_trp720.svg`
     },
@@ -38,7 +42,7 @@
     {
         name: "Bootstrap",
         logo: `${process.env.REACT_APP_CLOUDINARY}/bootstrap-5_d9vk55.svg`
-    }
+    },
 ]
 
 export default TechSkills;
