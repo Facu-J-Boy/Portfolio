@@ -18,6 +18,17 @@ const allProyects = [
             `${process.env.REACT_APP_CLOUDINARY}/Captura_de_pantalla_2023-04-17_120131_bgtidx.png`
         ],
         url: "https://henry-instruments-nu.vercel.app"
+    },
+    {
+        name: "ToDo",
+        images: [
+            "https://res.cloudinary.com/dvqh0exq6/image/upload/v1686606719/portfolio/Captura_de_pantalla_2023-06-12_183714_e2tgwh.png",
+            "https://res.cloudinary.com/dvqh0exq6/image/upload/v1686606773/portfolio/Captura_de_pantalla_2023-06-12_185015_kyfxzb.png",
+            "https://res.cloudinary.com/dvqh0exq6/image/upload/v1686606734/portfolio/Captura_de_pantalla_2023-06-12_184203_brbvez.png",
+            "https://res.cloudinary.com/dvqh0exq6/image/upload/v1686606745/portfolio/Captura_de_pantalla_2023-06-12_184740_itoyk6.png",
+            "https://res.cloudinary.com/dvqh0exq6/image/upload/v1686606759/portfolio/Captura_de_pantalla_2023-06-12_184830_ki6gcb.png"
+        ],
+        url: "https://todolist332.netlify.app"
     }
 ]
 
