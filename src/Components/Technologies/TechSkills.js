@@ -43,6 +43,10 @@
         name: "Bootstrap",
         logo: `${process.env.REACT_APP_CLOUDINARY}/bootstrap-5_d9vk55.svg`
     },
+    {
+        name: "Tailwind CSS",
+        logo: `${process.env.REACT_APP_CLOUDINARY}/tailwindcss_r9ldtk.svg`
+    }
 ]
 
 export default TechSkills;
