@@ -87,7 +87,7 @@ const Contact = () => {
             </svg>
           </button>
         </a>
-        <a href="./FacundoBoy.pdf" download>
+        <a href="./Facundo Boy.pdf" download>
           <button className="download-button">
             <div className="docs">
               <svg
