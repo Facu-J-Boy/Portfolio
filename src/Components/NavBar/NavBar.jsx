@@ -35,9 +35,11 @@ const NavBar = () => {
     }
   };
 
+  const profile = `${process.env.REACT_APP_CLOUDINARY}/IMG_20230417_153847297_HDR_alternativo_bmvvjy.jpg`;
+
   const modal = () => {
     Swal.fire({
-      imageUrl: `${process.env.REACT_APP_PROFILE}`,
+      imageUrl: profile,
       imageAlt: "Facundo Boy",
       customClass: {
         objectFit: "contain",
@@ -49,8 +51,6 @@ const NavBar = () => {
     });
   };
 
-  const profile = `${process.env.REACT_APP_CLOUDINARY}/IMG_20230417_153847297_HDR_alternativo_bmvvjy.jpg`;
-
   return (
     <>
       <div className="container">
@@ -60,7 +60,7 @@ const NavBar = () => {
               <img
                 className="profileImage"
                 src={profile}
-                alt={"imagen"}
+                alt={"Facundo Boy"}
                 onClick={() => modal()}
               />
             </div>
