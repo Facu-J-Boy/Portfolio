@@ -49,17 +49,21 @@ const NavBar = () => {
     });
   };
 
+  const profile = `${process.env.REACT_APP_CLOUDINARY}/IMG_20230417_153847297_HDR_alternativo_bmvvjy.jpg`;
+
   return (
     <>
       <div className="container">
         <div className="card">
           <div className="header">
-            <img
-              className="profileImage"
-              src={process.env.REACT_APP_PROFILE}
-              alt={"imagen"}
-              onClick={() => modal()}
-            />
+            <div className="circle">
+              <img
+                className="profileImage"
+                src={profile}
+                alt={"imagen"}
+                onClick={() => modal()}
+              />
+            </div>
           </div>
           <div className="dropdown">
             <button className="burger-menu">☰</button>
