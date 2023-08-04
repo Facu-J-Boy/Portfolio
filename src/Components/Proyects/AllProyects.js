@@ -22,11 +22,11 @@ const allProyects = [
     {
         name: "ToDo",
         images: [
-            "/proyects/ToDo/toDo1.png",
-            "/proyects/ToDo/toDo2.png",
-            "/proyects/ToDo/toDo3.png",
-            "/proyects/ToDo/toDo4.png",
-            "/proyects/ToDo/toDo5.png"
+            "/proyects/ToDo/ToDo1.png",
+            "/proyects/ToDo/ToDo2.png",
+            "/proyects/ToDo/ToDo3.png",
+            "/proyects/ToDo/ToDo4.png",
+            "/proyects/ToDo/ToDo5.png"
         ],
         url: "https://todolist332.netlify.app"
     }
