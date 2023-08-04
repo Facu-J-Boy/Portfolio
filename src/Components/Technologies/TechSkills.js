@@ -1,55 +1,55 @@
- const TechSkills = [
+const TechSkills = [
     {
         name: "Javascript",
-        logo: `${process.env.REACT_APP_CLOUDINARY}/js-logo_sysaec.svg`
+        logo: "/techSkills/js.svg"
     },
     {
         name: "HTML",
-        logo: `${process.env.REACT_APP_CLOUDINARY}/HTML5_logo_resized_dtzf7i.svg`
+        logo: "/techSkills/HTML5.svg"
     },
     {
         name: "CSS",
-        logo: `${process.env.REACT_APP_CLOUDINARY}/css-3-logo-svg-vector_rlcyyj.svg` 
+        logo: "/techSkills/css3.svg"
     },
     {
         name: "Typescript",
-        logo: `${process.env.REACT_APP_CLOUDINARY}/Typescript_logo_2020_fv13cg.svg`
+        logo: "/techSkills/Typescript.svg"
     },
     {
         name: "React",
-        logo: `${process.env.REACT_APP_CLOUDINARY}/react_trp720.svg`
+        logo: "/techSkills/react.svg"
     },
     {
         name: "Redux",
-        logo: `${process.env.REACT_APP_CLOUDINARY}/redux-logo-svg-vector_pzfozo.svg`
+        logo: "/techSkills/redux.svg"
     },
     {
         name: "Express",
-        logo: `${process.env.REACT_APP_CLOUDINARY}/express_j6edzs.svg`
+        logo: "/techSkills/express.svg"
     },
     {
         name: "NodeJS",
-        logo: `${process.env.REACT_APP_CLOUDINARY}/nodejs_ore6vb.svg`
+        logo: "/techSkills/nodejs.svg"
     },
     {
         name: "PostgreSQL",
-        logo: `${process.env.REACT_APP_CLOUDINARY}/postgresql-vertical-logo_zcjxwt.svg`
+        logo: "/techSkills/postgresql.svg"
     },
     {
         name: "Sequelize",
-        logo: `${process.env.REACT_APP_CLOUDINARY}/sequelize_mrxmff.svg`
+        logo: "/techSkills/sequelize.svg"
     },
     {
         name: "Bootstrap",
-        logo: `${process.env.REACT_APP_CLOUDINARY}/bootstrap-5_d9vk55.svg`
+        logo: "/techSkills/bootstrap.svg"
     },
     {
         name: "Tailwind CSS",
-        logo: `${process.env.REACT_APP_CLOUDINARY}/tailwindcss_r9ldtk.svg`
+        logo: "/techSkills/tailwindcss.svg"
     },
     {
         name: "Git",
-        logo: `${process.env.REACT_APP_CLOUDINARY}/Git-logo_k8aryd.svg`
+        logo: "/techSkills/Git.svg"
     }
 ]
 

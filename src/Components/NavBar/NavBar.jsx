@@ -3,6 +3,7 @@ import React from "react";
 import Swal from "sweetalert2";
 import Contact from "../Contact/Contact";
 import "./NavBar.css";
+import profile from "./image/profile.jpg";
 
 const NavBar = () => {
   const scrollToProyect = () => {
@@ -34,8 +35,6 @@ const NavBar = () => {
       window.scrollTo({ top: y, behavior: "smooth" });
     }
   };
-
-  const profile = `${process.env.REACT_APP_CLOUDINARY}/IMG_20230417_153847297_HDR_alternativo_bmvvjy.jpg`;
 
   const modal = () => {
     Swal.fire({

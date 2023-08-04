@@ -2,31 +2,31 @@ const allProyects = [
     {
         name: "PI-Videogame",
         images: [
-            `${process.env.REACT_APP_CLOUDINARY}/Captura_de_pantalla_2023-04-17_104336_lpr7sk.png`,
-            `${process.env.REACT_APP_CLOUDINARY}/Captura_de_pantalla_2023-04-17_104440_q3gqnl.png`,
-            `${process.env.REACT_APP_CLOUDINARY}/Captura_de_pantalla_2023-04-17_104522_lx2wcr.png`
+            "/proyects/PI-Videogame/PI-Videogame1.png",
+            "/proyects/PI-Videogame/PI-Videogame2.png",
+            "/proyects/PI-Videogame/PI-Videogame3.png"
         ],
         url: "https://pi-videogame-lyart.vercel.app"
     },
     {
         name: "Henry-Instrument",
         images: [
-            `${process.env.REACT_APP_CLOUDINARY}/Captura_de_pantalla_2023-04-17_113309_kvezbm.png`, 
-            `${process.env.REACT_APP_CLOUDINARY}/Captura_de_pantalla_2023-04-17_113358_jc0a4s.png`,
-            `${process.env.REACT_APP_CLOUDINARY}/Captura_de_pantalla_2023-04-17_113444_vuupil.png`,
-            `${process.env.REACT_APP_CLOUDINARY}/Captura_de_pantalla_2023-04-17_114722_arxcau.png`,
-            `${process.env.REACT_APP_CLOUDINARY}/Captura_de_pantalla_2023-04-17_120131_bgtidx.png`
+            "/proyects/Henry-Instrument/Henry-instrument1.png", 
+            "/proyects/Henry-Instrument/Henry-instrument2.png",
+            "/proyects/Henry-Instrument/Henry-instrument3.png",
+            "/proyects/Henry-Instrument/Henry-instrument4.png",
+            "/proyects/Henry-Instrument/Henry-instrument5.png"
         ],
         url: "https://henry-instruments-nu.vercel.app"
     },
     {
         name: "ToDo",
         images: [
-            `${process.env.REACT_APP_CLOUDINARY}/Captura_de_pantalla_2023-06-12_183714_e2tgwh.png`,
-            `${process.env.REACT_APP_CLOUDINARY}/Captura_de_pantalla_2023-06-12_185015_kyfxzb.png`,
-            `${process.env.REACT_APP_CLOUDINARY}/Captura_de_pantalla_2023-06-12_184203_brbvez.png`,
-            `${process.env.REACT_APP_CLOUDINARY}/Captura_de_pantalla_2023-06-12_184740_itoyk6.png`,
-            `${process.env.REACT_APP_CLOUDINARY}/Captura_de_pantalla_2023-06-12_184830_ki6gcb.png`
+            "/proyects/ToDo/toDo1.png",
+            "/proyects/ToDo/toDo2.png",
+            "/proyects/ToDo/toDo3.png",
+            "/proyects/ToDo/toDo4.png",
+            "/proyects/ToDo/toDo5.png"
         ],
         url: "https://todolist332.netlify.app"
     }
