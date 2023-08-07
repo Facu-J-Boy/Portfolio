@@ -2,6 +2,7 @@ import React from "react";
 import "./Contact.css";
 
 const Contact = () => {
+  const cv = "./Facundo Boy.pdf";
   return (
     <div>
       <div className="icons">
@@ -35,7 +36,7 @@ const Contact = () => {
             </svg>
           </button>
         </a>
-        <a href="./Facundo Boy.pdf" download>
+        <a href={cv} download>
           <button className="icon-btn">
             <svg viewBox="0 0 100 100">
               <circle cx="50" cy="50" r="50" fill="#007bff" />
@@ -87,7 +88,7 @@ const Contact = () => {
             </svg>
           </button>
         </a>
-        <a href="./Facundo Boy.pdf" download>
+        <a href={cv} download>
           <button className="download-button">
             <div className="docs">
               <svg
