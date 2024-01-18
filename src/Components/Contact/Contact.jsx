@@ -1,8 +1,8 @@
-import React from "react";
-import "./Contact.css";
+import React from 'react';
+import './Contact.css';
 
 const Contact = () => {
-  const cv = "./Facundo Boy.pdf";
+  const cv = './Facundo Boy.pdf';
   return (
     <div>
       <div className="icons">
@@ -107,10 +107,10 @@ const Contact = () => {
                 <line y2="13" x2="8" y1="13" x1="16"></line>
                 <line y2="17" x2="8" y1="17" x1="16"></line>
                 <polyline points="10 9 9 9 8 9"></polyline>
-              </svg>{" "}
+              </svg>{' '}
               CV
             </div>
-            <div className="download" href="./cv.pdf" download>
+            <div className="download" href={cv} download>
               <svg
                 className="css-i6dzq1"
                 strokeLinejoin="round"
