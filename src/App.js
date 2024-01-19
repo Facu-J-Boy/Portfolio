@@ -1,13 +1,17 @@
-import NavBar from './Components/NavBar/NavBar'
-
-import Elements from "./Components/Elements/Elements";
+import AboutMe from './Components/AboutMe/AboutMe';
+import Proyects from './Components/Proyects/Proyects';
+import Technologies from './Components/Technologies/Technologies';
+import styles from './App.module.css';
+import Contact from './Components/Contact/Contact';
 
 function App() {
   return (
-    <>
-    <NavBar />
-    <Elements />
-    </>
+    <div className={styles.container}>
+      <AboutMe />
+      <Proyects />
+      <Technologies />
+      <Contact />
+    </div>
   );
 }
 
