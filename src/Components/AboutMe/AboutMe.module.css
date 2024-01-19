@@ -1,0 +1,47 @@
+@keyframes slideAnimation {
+  0% {
+    opacity: 0;
+    transform: translateX(-50px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.aboutMe {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+  /* border: solid 1px #333; */
+  /* width: 80%; */
+  animation-name: slideAnimation;
+  animation-duration: 500ms;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.info h1 {
+  color: #333;
+}
+
+.imageContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  width: 320px;
+  border: solid 1px #333;
+}
+
+.imageContainer img {
+  height: 100%;
+  width: 100%;
+}
