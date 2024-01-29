@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from './ProyectCard.module.css';
+import { FaArrowRight } from 'react-icons/fa';
 
 const ProyectCard = ({ name, technologies, images, url }) => {
   return (
@@ -17,7 +18,8 @@ const ProyectCard = ({ name, technologies, images, url }) => {
       </div>
       <a href={url}>
         <button>
-          <span>Ver</span>
+          ver
+          <FaArrowRight size={15} />
         </button>
       </a>
     </div>
