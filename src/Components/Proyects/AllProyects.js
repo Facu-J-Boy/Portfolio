@@ -1,6 +1,13 @@
 const allProyects = [
   {
     name: 'PI-Videogame',
+    technologies: [
+      'React',
+      'Javascript',
+      'CSS',
+      'Node.js',
+      'Express',
+    ],
     images: [
       '/proyects/PI-Videogame/PI-Videogame1.png',
       '/proyects/PI-Videogame/PI-Videogame2.png',
@@ -8,19 +15,26 @@ const allProyects = [
     ],
     url: 'https://pi-videogame-lyart.vercel.app',
   },
-  {
-    name: 'Henry-Instrument',
-    images: [
-      '/proyects/Henry-Instrument/Henry-instrument1.png',
-      '/proyects/Henry-Instrument/Henry-instrument2.png',
-      '/proyects/Henry-Instrument/Henry-instrument3.png',
-      '/proyects/Henry-Instrument/Henry-instrument4.png',
-      '/proyects/Henry-Instrument/Henry-instrument5.png',
-    ],
-    url: 'https://henry-instruments-nu.vercel.app',
-  },
+  // {
+  //   name: 'Henry-Instrument',
+  //   images: [
+  //     '/proyects/Henry-Instrument/Henry-instrument1.png',
+  //     '/proyects/Henry-Instrument/Henry-instrument2.png',
+  //     '/proyects/Henry-Instrument/Henry-instrument3.png',
+  //     '/proyects/Henry-Instrument/Henry-instrument4.png',
+  //     '/proyects/Henry-Instrument/Henry-instrument5.png',
+  //   ],
+  //   url: 'https://henry-instruments-nu.vercel.app',
+  // },
   {
     name: 'ToDo',
+    technologies: [
+      'React',
+      'Typescript',
+      'Tailwind',
+      'Node.js',
+      'Express',
+    ],
     images: [
       '/proyects/ToDo/ToDo1.png',
       '/proyects/ToDo/ToDo2.png',
@@ -32,6 +46,7 @@ const allProyects = [
   },
   {
     name: 'E-commerce',
+    technologies: ['React', 'Typescript', 'CSS'],
     images: [
       '/proyects/E-commerce/E-commerce1.png',
       '/proyects/E-commerce/E-commerce2.png',
