@@ -9,6 +9,7 @@
   border-radius: 5px;
   text-align: center;
   margin: 10px 0px;
+  color: #333;
 }
 
 .proyectCard:hover {
@@ -16,7 +17,6 @@
 }
 
 .proyectCard h1 {
-  color: #333;
   margin: 0px 0px 30px 20px;
 }
 
