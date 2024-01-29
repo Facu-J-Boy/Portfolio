@@ -1,28 +1,29 @@
-import React from "react";
-import "./AboutMe.css";
+import React from 'react';
+import styles from './AboutMe.module.css';
+import info from './info';
+import profile from './profile/profile.jpg';
 
 const AboutMe = () => {
   return (
-    <>
-      <h1 id="aboutMe-title">SOBRE MI</h1>
-      <div className="component-aboutMe">
-        <h1>¿Quien soy?</h1>
-        <p>
-          Mi nombre es Facundo Boy, soy de Argentina y soy fullstack developer,
-          graduado del Bootcamp de Henry, tengo experiencia con Javascript,
-          React.js, Redux, HTML, CSS, express, sequelize y postgreSQL. Estoy en
-          busca de mi primer trabajo como programador con ganas de aportar en
-          nuevos proyectos, aprender más, mejorar mis habilidades y conocer
-          gente, tambien cuento con experiencia trabajando en equipo con
-          metodología scrum.
-        </p>
-        <h1>¿Qué hago?</h1>
-        <p>
-          Actualmente realizo proyectos para seguir mejorando mis habilidades
-          como programador aprendiendo nuevas tecnologías.
-        </p>
+    <div div className={styles.aboutMe}>
+      <div className={styles.info}>
+        <div className={styles.imageContainer}>
+          <img src={profile} alt="Facundo Boy" />
+        </div>
+        <div>
+          <h1>{info.name}</h1>
+          <h3>Desarrollador web</h3>
+        </div>
       </div>
-    </>
+      <p>
+        Desarrollador enfocado en React y JavaScript para la creación
+        de interfaces de usuario dinámicas. Mi experiencia se extiende
+        al desarrollo de API's CRUD utilizando Node.js y PostgreSQL
+        para el backend. Apasionado por construir soluciones
+        eficientes y modernas, estoy listo para aportar a proyectos
+        que busquen innovación y calidad técnica.
+      </p>
+    </div>
   );
 };
 

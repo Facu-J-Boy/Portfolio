@@ -1,18 +1,25 @@
-import React from "react";
-import "./ProyectCard.css";
+import React from 'react';
+import styles from './ProyectCard.module.css';
+import { FaArrowRight } from 'react-icons/fa';
 
-const ProyectCard = ({ name, images, url }) => {
+const ProyectCard = ({ name, technologies, images, url }) => {
   return (
-    <div className="proyect-card">
+    <div className={styles.proyectCard}>
       <h1>{name}</h1>
-      <div className="slider-container">
-        {images.map((el, index) => (
-          <img key={index} className="slider-item" src={`${el}`} alt="imagen" />
-        ))}
+      <ul className={styles.technologies}>
+        {technologies.map((e, index) => {
+          return <li key={index}>{e}</li>;
+        })}
+      </ul>
+      <div className={styles.image}>
+        {/* {images.map((el, index) => ( */}
+        <img src={images[0]} alt="imagen" />
+        {/* // ))} */}
       </div>
       <a href={url}>
         <button>
-          <span>Ver</span>
+          ver
+          <FaArrowRight size={15} />
         </button>
       </a>
     </div>
