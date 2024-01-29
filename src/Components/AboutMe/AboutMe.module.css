@@ -19,7 +19,6 @@
   animation-name: slideAnimation;
   animation-duration: 500ms;
   color: #333;
-  margin-bottom: 50px;
 }
 
 .info {
@@ -58,5 +57,9 @@
 
   .info h1 {
     font-size: 30px;
+  }
+
+  .aboutMe p {
+    font-size: small;
   }
 }

@@ -6,14 +6,12 @@ import Contact from './Components/Contact/Contact';
 
 function App() {
   return (
-    <>
-      <div className={styles.container}>
-        <AboutMe />
-        <Technologies />
-        <Proyects />
-      </div>
+    <div className={styles.container}>
+      <AboutMe />
       <Contact />
-    </>
+      <Technologies />
+      <Proyects />
+    </div>
   );
 }
 
