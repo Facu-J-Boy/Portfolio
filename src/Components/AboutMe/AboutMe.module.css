@@ -12,9 +12,9 @@
 
 .aboutMe {
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
   margin-top: 10px;
   animation-name: slideAnimation;
   animation-duration: 500ms;
@@ -24,25 +24,39 @@
 
 .info {
   display: flex;
-  flex-direction: column;
-  width: 50%;
+  flex-direction: row;
 }
 
 .info h1 {
   font-size: 60px;
+  margin-bottom: 0px;
 }
 
 .imageContainer {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 300px;
-  width: 320px;
+  height: 150px;
+  width: 160px;
   border-radius: 100%;
   overflow: hidden;
+  margin-right: 20px;
 }
 
 .imageContainer img {
-  height: 100%;
-  width: 100%;
+  max-height: 100%;
+  max-width: 100%;
+}
+
+@media screen and (max-width: 1129px) {
+  .aboutMe {
+    align-items: center;
+  }
+  .info {
+    flex-direction: column;
+  }
+
+  .info h1 {
+    font-size: 30px;
+  }
 }

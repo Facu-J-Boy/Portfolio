@@ -6,24 +6,23 @@ import profile from './profile/profile.jpg';
 const AboutMe = () => {
   return (
     <div div className={styles.aboutMe}>
-      {/* <h1 id="aboutMe-title">SOBRE MI</h1> */}
-      {/* <div className="component-aboutMe"> */}
-      {/* <h1>¿Quien soy?</h1> */}
       <div className={styles.info}>
-        <h1>{info.name}</h1>
-        <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-          Mollitia quas pariatur nihil, amet provident quibusdam
-          dolores autem, accusamus reprehenderit, doloremque
-          assumenda! Iure obcaecati odio illo. Repellat labore facere
-          non. Iusto?
-        </p>
+        <div className={styles.imageContainer}>
+          <img src={profile} alt="Facundo Boy" />
+        </div>
+        <div>
+          <h1>{info.name}</h1>
+          <h3>Desarrollador web</h3>
+        </div>
       </div>
-      {/* <p>{info.info}</p> */}
-      <div className={styles.imageContainer}>
-        <img src={profile} alt="Facundo Boy" />
-      </div>
-      {/* </div> */}
+      <p>
+        Desarrollador enfocado en React y JavaScript para la creación
+        de interfaces de usuario dinámicas. Mi experiencia se extiende
+        al desarrollo de API's CRUD utilizando Node.js y PostgreSQL
+        para el backend. Apasionado por construir soluciones
+        eficientes y modernas, estoy listo para aportar a proyectos
+        que busquen innovación y calidad técnica.
+      </p>
     </div>
   );
 };

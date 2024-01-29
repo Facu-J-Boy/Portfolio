@@ -9,8 +9,8 @@ function App() {
     <>
       <div className={styles.container}>
         <AboutMe />
-        <Proyects />
         <Technologies />
+        <Proyects />
       </div>
       <Contact />
     </>

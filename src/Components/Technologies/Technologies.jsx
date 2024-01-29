@@ -1,11 +1,14 @@
 import React from 'react';
 import styles from './Technologies.module.css';
 import TechSkills from './TechSkills';
+import { BsWrench } from 'react-icons/bs';
 
 const Technologies = () => {
   return (
     <div className={styles.technologies}>
-      <h1>Habilidades</h1>
+      <h1>
+        <BsWrench /> Tecnologias
+      </h1>
       <div className={styles.habilities}>
         <div className={styles.section}>
           <h3>Lenguajes</h3>

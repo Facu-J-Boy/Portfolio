@@ -11,7 +11,7 @@ const ProyectCard = ({ name, technologies, images, url }) => {
           return <li key={index}>{e}</li>;
         })}
       </ul>
-      <div className={styles.sliderContainer}>
+      <div className={styles.image}>
         {/* {images.map((el, index) => ( */}
         <img src={images[0]} alt="imagen" />
         {/* // ))} */}
