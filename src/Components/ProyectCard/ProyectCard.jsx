@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './ProyectCard.module.css';
-import { FaArrowRight } from 'react-icons/fa';
+import { BsBoxArrowUpRight } from 'react-icons/bs';
 
 const ProyectCard = ({ name, technologies, images, url }) => {
   return (
@@ -19,7 +19,7 @@ const ProyectCard = ({ name, technologies, images, url }) => {
       <a href={url}>
         <button>
           ver
-          <FaArrowRight size={15} />
+          <BsBoxArrowUpRight size={15} />
         </button>
       </a>
     </div>
