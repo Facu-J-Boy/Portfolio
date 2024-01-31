@@ -3,7 +3,6 @@
   flex-direction: column;
   justify-content: flex-start;
   width: 100%;
-  color: #333;
 }
 
 .habilities {
@@ -11,11 +10,6 @@
   flex-direction: column;
   margin-left: 20px;
 }
-
-/* .section {
-  display: flex;
-  flex-direction: row;
-} */
 
 .section ul {
   display: flex;

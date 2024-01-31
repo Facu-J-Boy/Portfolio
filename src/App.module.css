@@ -6,6 +6,10 @@
   padding: 0px 30%;
 }
 
+.container h1 {
+  color: #333;
+}
+
 @media screen and (max-width: 1129px) {
   .container {
     padding: 0px 5%;
