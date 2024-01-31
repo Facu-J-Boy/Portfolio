@@ -1,0 +1,64 @@
+.mail {
+  display: flex;
+  width: 100%;
+  align-items: flex-start;
+}
+
+.mailInput {
+  display: flex;
+  flex-direction: row;
+}
+
+.mailInput input {
+  height: 30px;
+  width: 250px;
+  font-size: medium;
+  border: solid 1px #333;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.mailInput button {
+  cursor: pointer;
+  margin: 0px 5px;
+  padding: 0px 10px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 15px;
+}
+
+@keyframes slideAnimation {
+  0% {
+    opacity: 0;
+    transform: translateX(-50px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.etiqueta {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 12px;
+  margin-left: 10px;
+  font-size: 12px;
+  font-weight: normal;
+  border: solid 1px #333;
+  padding: 5px;
+  animation-name: slideAnimation;
+  animation-duration: 200ms;
+}
+
+@media screen and (max-width: 447px) {
+  .mailInput input {
+    height: 15px;
+    width: 170px;
+    font-size: small;
+  }
+}
