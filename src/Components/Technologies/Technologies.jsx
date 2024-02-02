@@ -7,7 +7,7 @@ const Technologies = () => {
   return (
     <div className={styles.technologies}>
       <h1>
-        <BsWrench /> Tecnologias
+        <BsWrench /> Tecnologías
       </h1>
       <div className={styles.habilities}>
         <div className={styles.section}>

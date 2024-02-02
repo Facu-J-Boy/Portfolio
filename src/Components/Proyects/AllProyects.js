@@ -8,7 +8,7 @@ const allProyects = [
       'Node.js',
       'Express',
     ],
-    description: `Aplicación en la cual se pueden ver los distintos videojuegos disponibles junto con información relevante de los mismos utilizando la api externa rawg y a partir de ella poder, entre otras cosas: buscar videojuegos, filtrarlos/ordenarlos, agregar nuevos videojuegos`,
+    description: `Aplicación en la cual se pueden ver los distintos videojuegos disponibles junto con información relevante de los mismos utilizando la api externa rawg y a partir de ella poder, entre otras cosas: buscar videojuegos, filtrarlos/ordenarlos y agregar nuevos videojuegos`,
     images: '/proyects/PI-Videogame.png',
     buttons: [
       {
@@ -18,7 +18,7 @@ const allProyects = [
       },
       {
         icon: 'code',
-        text: 'codigo',
+        text: 'código',
         url: 'https://github.com/Facu-J-Boy/PI-Videogame',
       },
     ],
@@ -40,7 +40,7 @@ const allProyects = [
   // },
   // {
   //   icon: 'code',
-  //   text: 'codigo',
+  //   text: 'código',
   //   url:'https://github.com/Facu-J-Boy/henry_instruments'
   // }
   // ],
@@ -66,7 +66,7 @@ const allProyects = [
       },
       {
         icon: 'code',
-        text: 'codigo',
+        text: 'código',
         url: 'https://github.com/Facu-J-Boy/ToDo-App',
       },
     ],
@@ -85,7 +85,7 @@ const allProyects = [
       },
       {
         icon: 'code',
-        text: 'codigo',
+        text: 'código',
         url: 'https://github.com/Facu-J-Boy/E-commerce',
       },
     ],
