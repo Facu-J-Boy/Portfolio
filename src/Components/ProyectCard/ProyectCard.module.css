@@ -87,4 +87,8 @@
   .buttonZone button {
     font-size: 12px;
   }
+
+  .proyectCard p {
+    font-size: small;
+  }
 }
