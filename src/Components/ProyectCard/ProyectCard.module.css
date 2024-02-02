@@ -4,8 +4,7 @@
   align-items: flex-start;
   width: 100%;
   height: auto;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-  border-radius: 5px;
+  border-top: solid 1px #333;
   text-align: center;
   margin: 10px 0px;
   color: #333;
@@ -21,6 +20,13 @@
 
 .proyectCard h1 {
   margin: 0px 0px 30px 20px;
+}
+
+.proyectCard p {
+  text-align: left;
+  font-family: monospace;
+  font-size: 15px;
+  color: #444444;
 }
 
 .technologies {
@@ -50,26 +56,35 @@
   max-height: 100%;
 }
 
-.proyectCard button {
+.buttonZone {
+  display: flex;
+  flex-direction: row;
+}
+
+.buttonZone button {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-around;
+  justify-content: center;
   border-radius: 4px;
   text-decoration: none;
-  border: solid 1px #333;
-  background-color: none;
-  border-radius: 50px;
-  color: #333;
+  border: none;
+  color: #fff;
+  background-color: #333;
+  border-radius: 5px;
   text-align: center;
   font-size: 17px;
-  width: 70px;
+  padding: 5px;
   cursor: pointer;
-  margin: 15px;
+  margin: 15px 0px 15px 15px;
 }
 
 @media screen and (max-width: 1129px) {
   .technologies {
     font-size: small;
+  }
+
+  .buttonZone button {
+    font-size: 12px;
   }
 }
