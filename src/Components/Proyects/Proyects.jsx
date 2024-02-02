@@ -18,8 +18,9 @@ const Proyects = () => {
               key={index}
               name={e.name}
               technologies={e.technologies}
+              description={e.description}
               images={e.images}
-              url={e.url}
+              buttons={e.buttons}
             />
           );
         })}

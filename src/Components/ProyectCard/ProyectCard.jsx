@@ -1,8 +1,15 @@
 import React from 'react';
 import styles from './ProyectCard.module.css';
 import { BsBoxArrowUpRight } from 'react-icons/bs';
+import { BsFileEarmarkCode } from 'react-icons/bs';
 
-const ProyectCard = ({ name, technologies, images, url }) => {
+const ProyectCard = ({
+  name,
+  technologies,
+  description,
+  images,
+  buttons,
+}) => {
   return (
     <div className={styles.proyectCard}>
       <h1>{name}</h1>
@@ -11,17 +18,25 @@ const ProyectCard = ({ name, technologies, images, url }) => {
           return <li key={index}>{e}</li>;
         })}
       </ul>
+      <p>{description}</p>
       <div className={styles.image}>
-        {/* {images.map((el, index) => ( */}
-        <img src={images[0]} alt="imagen" />
-        {/* // ))} */}
+        <img src={images} alt="imagen" />
       </div>
-      <a href={url}>
-        <button>
-          ver
-          <BsBoxArrowUpRight size={15} />
-        </button>
-      </a>
+      <div className={styles.buttonZone}>
+        {buttons.map((e, index) => (
+          <a key={index} href={e.url}>
+            <button>
+              {`${e.text}   `}
+              <div style={{ marginLeft: '5px' }}>
+                {e.icon === 'arrow' && (
+                  <BsBoxArrowUpRight size={16} />
+                )}
+                {e.icon === 'code' && <BsFileEarmarkCode size={16} />}
+              </div>
+            </button>
+          </a>
+        ))}
+      </div>
     </div>
   );
 };
