@@ -75,7 +75,7 @@ const allProyects = [
   {
     name: 'E-commerce',
     technologies: ['React', 'Typescript', 'CSS'],
-    description: `Diseño de UI de un E-commmerce usando las API's "fakestoreapi" para los productos y "jsonplaceholder" para los comentarios de los mismos, una autenticación con firebase e iconos con react-icon.`,
+    description: `UI de un E-commmerce usando las API's "fakestoreapi" para los productos y "jsonplaceholder" para los comentarios de los mismos, una autenticación con firebase e iconos con react-icon.`,
     images: '/proyects/E-commerce.png',
     buttons: [
       {
