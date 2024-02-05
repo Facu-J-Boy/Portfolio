@@ -5,6 +5,7 @@ import { BsFileEarmarkCode } from 'react-icons/bs';
 
 const ProyectCard = ({
   name,
+  time,
   technologies,
   description,
   images,
@@ -12,7 +13,10 @@ const ProyectCard = ({
 }) => {
   return (
     <div className={styles.proyectCard}>
-      <h1>{name}</h1>
+      <div className={styles.header}>
+        <h1>{name}</h1>
+        <span>{time}</span>
+      </div>
       <ul className={styles.technologies}>
         {technologies.map((e, index) => {
           return <li key={index}>{e}</li>;

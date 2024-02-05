@@ -1,6 +1,7 @@
 const allProyects = [
   {
     name: 'PI-Videogame',
+    time: 'oct. 2022 - nov. 2022',
     technologies: [
       'React',
       'Javascript',
@@ -26,6 +27,7 @@ const allProyects = [
   },
   // {
   //   name: 'Henry-Instrument',
+  // time: 'dic. 2022 - ene. 2023',
   //description: `E-commerce de instrumentos musicales en grupo que incluye: autenticación, búsquedas, filtrados combinados,
   //ordenamientos, baneo de usuarios, envío de emails, pasarela de pago, etc.
   //Mi rol fue el de diseñar las tarjetas de los productos, mostrar sus detalles, crear la sección de comentarios y puntuación,
@@ -48,6 +50,7 @@ const allProyects = [
   // },
   {
     name: 'ToDo',
+    time: 'may. 2023 - jun. 2023',
     technologies: [
       'React',
       'Typescript',
@@ -74,6 +77,7 @@ const allProyects = [
   },
   {
     name: 'E-commerce',
+    time: 'nov. 2023 - ene. 2024',
     technologies: ['React', 'Typescript', 'CSS'],
     description: `UI de un E-commmerce usando las API's "fakestoreapi" para los productos y "jsonplaceholder" para los comentarios de los mismos, una autenticación con firebase e iconos con react-icon.`,
     images: '/proyects/E-commerce.png',

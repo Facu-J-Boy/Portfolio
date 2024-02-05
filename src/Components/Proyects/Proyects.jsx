@@ -17,6 +17,7 @@ const Proyects = () => {
             <ProyectCard
               key={index}
               name={e.name}
+              time={e.time}
               technologies={e.technologies}
               description={e.description}
               images={e.images}
