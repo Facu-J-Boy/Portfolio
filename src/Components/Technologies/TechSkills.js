@@ -1,5 +1,5 @@
 const TechSkills = {
-  lenguajes: ['Javascript', 'Typescript'],
+  lenguajes: ['Javascript', 'Typescript', 'HTML', 'CSS'],
   frameworks: [
     'React',
     'Redux',
