@@ -16,7 +16,7 @@ const TechSkills = {
   frameworks: [
     {
       name: 'React',
-      icon: '/techSkills/React.svg',
+      icon: '/techSkills/react.svg',
       color: '#61dbfb',
     },
     {

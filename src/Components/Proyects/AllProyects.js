@@ -5,7 +5,7 @@ const allProyects = [
     technologies: [
       {
         name: 'React',
-        icon: '/techSkills/React.svg',
+        icon: '/techSkills/react.svg',
         color: '#61dbfb',
       },
       {
@@ -70,7 +70,7 @@ const allProyects = [
     technologies: [
       {
         name: 'React',
-        icon: '/techSkills/React.svg',
+        icon: '/techSkills/react.svg',
         color: '#61dbfb',
       },
       {
@@ -117,7 +117,7 @@ const allProyects = [
     technologies: [
       {
         name: 'React',
-        icon: '/techSkills/React.svg',
+        icon: '/techSkills/react.svg',
         color: '#61dbfb',
       },
       {
