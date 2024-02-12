@@ -1,16 +1,18 @@
 .container {
   display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
-.container ul {
+/* .container ul {
   display: flex;
   justify-content: flex-start;
   flex-direction: row;
   flex-wrap: wrap;
   margin-top: 10px;
-}
+} */
 
-.container ul li {
+.container span {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -36,7 +38,7 @@
 }
 
 @media screen and (max-width: 1129px) {
-  .container ul li {
+  .container span {
     font-size: small;
   }
 
