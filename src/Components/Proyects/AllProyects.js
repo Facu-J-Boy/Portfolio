@@ -3,11 +3,27 @@ const allProyects = [
     name: 'PI-Videogame',
     time: 'oct. 2022 - nov. 2022',
     technologies: [
-      'React',
-      'Javascript',
-      'CSS',
-      'Node.js',
-      'Express',
+      {
+        name: 'React',
+        icon: '/techSkills/react.svg',
+        color: '#61dbfb',
+      },
+      {
+        name: 'Javascript',
+        icon: '/techSkills/js.svg',
+        color: '#ffff00',
+      },
+      { name: 'CSS', icon: '/techSkills/css3.svg', color: '#264de4' },
+      {
+        name: 'express',
+        icon: '/techSkills/express.svg',
+        color: '#000000',
+      },
+      {
+        name: 'PostgreSQL',
+        icon: '/techSkills/postgresql.svg',
+        color: '#336791',
+      },
     ],
     description: `Aplicación en la cual se pueden ver los distintos videojuegos disponibles junto con información relevante de los mismos utilizando la api externa rawg y a partir de ella poder, entre otras cosas: buscar videojuegos, filtrarlos/ordenarlos y agregar nuevos videojuegos`,
     images: '/proyects/PI-Videogame.png',
@@ -52,11 +68,31 @@ const allProyects = [
     name: 'ToDo',
     time: 'may. 2023 - jun. 2023',
     technologies: [
-      'React',
-      'Typescript',
-      'Tailwind',
-      'Node.js',
-      'Express',
+      {
+        name: 'React',
+        icon: '/techSkills/react.svg',
+        color: '#61dbfb',
+      },
+      {
+        name: 'Typescript',
+        icon: '/techSkills/Typescript.svg',
+        color: '#3178c6',
+      },
+      {
+        name: 'TailwindCSS',
+        icon: '/techSkills/tailwindcss.svg',
+        color: '#38B2AC',
+      },
+      {
+        name: 'express',
+        icon: '/techSkills/express.svg',
+        color: '#000000',
+      },
+      {
+        name: 'PostgreSQL',
+        icon: '/techSkills/postgresql.svg',
+        color: '#336791',
+      },
     ],
     description: `App de lista de tareas donde puedes crearlas, editarlas y eliminarlas de la lista, también cuenta con un sistema de autenticación con firebase.`,
     images: '/proyects/ToDo.png',
@@ -78,7 +114,19 @@ const allProyects = [
   {
     name: 'E-commerce',
     time: 'nov. 2023 - ene. 2024',
-    technologies: ['React', 'Typescript', 'CSS'],
+    technologies: [
+      {
+        name: 'React',
+        icon: '/techSkills/react.svg',
+        color: '#61dbfb',
+      },
+      {
+        name: 'Typescript',
+        icon: '/techSkills/Typescript.svg',
+        color: '#3178c6',
+      },
+      { name: 'CSS', icon: '/techSkills/css3.svg', color: '#264de4' },
+    ],
     description: `UI de un E-commmerce usando las API's "fakestoreapi" para los productos y "jsonplaceholder" para los comentarios de los mismos, una autenticación con firebase e iconos con react-icon.`,
     images: '/proyects/E-commerce.png',
     buttons: [
