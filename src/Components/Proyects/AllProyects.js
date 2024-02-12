@@ -11,7 +11,7 @@ const allProyects = [
       {
         name: 'Javascript',
         icon: '/techSkills/js.svg',
-        color: '#ffff00',
+        color: '#F7DF1E',
       },
       { name: 'CSS', icon: '/techSkills/css3.svg', color: '#264de4' },
       {

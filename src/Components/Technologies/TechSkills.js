@@ -3,7 +3,7 @@ const TechSkills = {
     {
       name: 'Javascript',
       icon: '/techSkills/js.svg',
-      color: '#ffff00',
+      color: '#F7DF1E',
     },
     {
       name: 'Typescript',
