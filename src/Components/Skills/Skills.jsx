@@ -4,7 +4,6 @@ import styles from './Skills.module.css';
 const Skills = ({ skills }) => {
   return (
     <div className={styles.container}>
-      {/* <ul> */}
       {skills.map((e, index) => {
         return (
           <span
@@ -20,7 +19,6 @@ const Skills = ({ skills }) => {
           </span>
         );
       })}
-      {/* </ul> */}
     </div>
   );
 };

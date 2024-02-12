@@ -4,14 +4,6 @@
   flex-wrap: wrap;
 }
 
-/* .container ul {
-  display: flex;
-  justify-content: flex-start;
-  flex-direction: row;
-  flex-wrap: wrap;
-  margin-top: 10px;
-} */
-
 .container span {
   display: flex;
   align-items: center;
