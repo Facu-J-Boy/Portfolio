@@ -2,6 +2,7 @@ import React from 'react';
 import styles from './ProyectCard.module.css';
 import { BsBoxArrowUpRight } from 'react-icons/bs';
 import { BsFileEarmarkCode } from 'react-icons/bs';
+import Skills from '../Skills/Skills';
 
 const ProyectCard = ({
   name,
@@ -17,11 +18,7 @@ const ProyectCard = ({
         <h1>{name}</h1>
         <span>{time}</span>
       </div>
-      <ul className={styles.technologies}>
-        {technologies.map((e, index) => {
-          return <li key={index}>{e}</li>;
-        })}
-      </ul>
+      <Skills skills={technologies} />
       <p>{description}</p>
       <div className={styles.image}>
         <img src={images} alt="imagen" />
