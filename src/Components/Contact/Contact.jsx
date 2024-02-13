@@ -13,18 +13,24 @@ const Contact = () => {
 
   return (
     <div className={styles.contact}>
-      <a href={`${process.env.REACT_APP_LINKEDIN_URL}`}>
+      <a href="https://www.linkedin.com/in/facundo-boy-b7a368248/">
         <button
           style={{ color: '#0e76a8', border: 'solid 1px #0e76a8' }}
         >
-          <FaLinkedin /> Linkedin
+          <div style={{ marginRight: '2px' }}>
+            <FaLinkedin />
+          </div>
+          Linkedin
         </button>
       </a>
-      <a href={`${process.env.REACT_APP_GITHUB_URL}`}>
+      <a href="https://github.com/Facu-J-Boy">
         <button
           style={{ color: '#171515', border: 'solid 1px #171515' }}
         >
-          <BsGithub /> GitHub
+          <div style={{ marginRight: '2px' }}>
+            <BsGithub />
+          </div>
+          GitHub
         </button>
       </a>
       <div className={styles.cvZone}>
