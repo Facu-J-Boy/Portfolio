@@ -1,11 +1,16 @@
-import React from 'react';
+import React, { useState } from 'react';
 import styles from './Contact.module.css';
 import { FaLinkedin } from 'react-icons/fa';
 import { BsGithub } from 'react-icons/bs';
 import { MdOutlineFileDownload } from 'react-icons/md';
+import { MdRemoveRedEye } from 'react-icons/md';
+import Modal from './Modal';
 
 const Contact = () => {
   const cv = './Facundo Boy.pdf';
+
+  const [showModal, setShowModal] = useState(false);
+
   return (
     <div className={styles.contact}>
       <a href={`${process.env.REACT_APP_LINKEDIN_URL}`}>
@@ -22,11 +27,25 @@ const Contact = () => {
           <BsGithub /> GitHub
         </button>
       </a>
-      <a href={cv} download>
-        <button style={{ color: '#333', border: 'solid 1px #333' }}>
-          <MdOutlineFileDownload /> CV
+      <div className={styles.cvZone}>
+        <span style={{ color: '#333', border: 'none' }}>CV:</span>
+        <button onClick={() => setShowModal(!showModal)}>
+          <MdRemoveRedEye />
         </button>
-      </a>
+        {showModal && (
+          <div className={styles.modal}>
+            <button onClick={() => setShowModal(!showModal)}>
+              X
+            </button>
+            <Modal cv={cv} />
+          </div>
+        )}
+        <a href={cv} download>
+          <button>
+            <MdOutlineFileDownload />
+          </button>
+        </a>
+      </div>
     </div>
   );
 };

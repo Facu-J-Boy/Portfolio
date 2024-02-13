@@ -5,17 +5,20 @@ import Technologies from './Components/Technologies/Technologies';
 import Proyects from './Components/Proyects/Proyects';
 import Mail from './Components/Mail/Mail';
 
+import { Worker } from '@react-pdf-viewer/core';
+
 function App() {
   return (
     <div className={styles.container}>
-      <AboutMe />
-      <Contact />
-      <Mail />
-      <Technologies />
-      <Proyects />
-      <br />
-      <br />
-      <br />
+      <Worker workerUrl="https://unpkg.com/pdfjs-dist@3.4.120/build/pdf.worker.min.js">
+        <AboutMe />
+        <Contact />
+        <Mail />
+        <Technologies />
+        <Proyects />
+        <br />
+        <br />
+      </Worker>
     </div>
   );
 }
