@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './ProyectCard.module.css';
 import { BsBoxArrowUpRight } from 'react-icons/bs';
-import { BsFileEarmarkCode } from 'react-icons/bs';
+import { FaGithub } from 'react-icons/fa';
 import Skills from '../Skills/Skills';
 
 const ProyectCard = ({
@@ -27,13 +27,13 @@ const ProyectCard = ({
         {buttons.map((e, index) => (
           <a key={index} href={e.url}>
             <button>
-              {`${e.text}   `}
-              <div style={{ marginLeft: '5px' }}>
+              <div style={{ marginRight: '5px' }}>
                 {e.icon === 'arrow' && (
                   <BsBoxArrowUpRight size={16} />
                 )}
-                {e.icon === 'code' && <BsFileEarmarkCode size={16} />}
+                {e.icon === 'code' && <FaGithub size={16} />}
               </div>
+              {`${e.text}   `}
             </button>
           </a>
         ))}
