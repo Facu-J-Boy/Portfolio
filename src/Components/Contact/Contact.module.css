@@ -8,7 +8,7 @@
 
 .contact a {
   text-decoration: none;
-  margin: 0px 5px;
+  margin: 0px 2px;
 }
 
 .contact button {
@@ -17,7 +17,7 @@
   justify-content: center;
   border-radius: 50px;
   border: none;
-  padding: 5px 10px;
+  padding: 5px;
   cursor: pointer;
   font-size: 17px;
   color: #fff;
@@ -38,6 +38,7 @@
 .cvZone button {
   border: none;
   background-color: none;
+  margin: 0px;
 }
 
 .modal {

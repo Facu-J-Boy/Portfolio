@@ -23,9 +23,15 @@
 .info {
   display: flex;
   flex-direction: row;
+  align-items: center;
 }
 
-.info h1 {
+.title {
+  display: flex;
+  flex-direction: column;
+}
+
+.title h1 {
   font-size: 60px;
   margin-bottom: 0px;
   font-family: sans-serif;
@@ -36,7 +42,7 @@
   color: transparent; /* Oculta el color del texto original */
 }
 
-.info h3 {
+.title h3 {
   font-family: monospace;
   font-size: 25px;
   color: #12b886;
@@ -64,9 +70,14 @@
   }
   .info {
     flex-direction: column;
+    align-items: center;
   }
 
-  .info h1 {
+  .title {
+    align-items: center;
+  }
+
+  .title h1 {
     font-size: 30px;
   }
 
