@@ -35,14 +35,16 @@ const TechSkills = {
       color: '#38B2AC',
     },
     {
-      name: 'sequelize',
-      icon: '/techSkills/sequelize.svg',
-      color: '#0769ad',
-    },
-    {
       name: 'express',
       icon: '/techSkills/express.svg',
       color: '#000000',
+    },
+  ],
+  ORM: [
+    {
+      name: 'sequelize',
+      icon: '/techSkills/sequelize.svg',
+      color: '#0769ad',
     },
   ],
   database: [

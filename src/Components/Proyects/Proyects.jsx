@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from './Proyects.module.css';
+import app from '../../App.module.css';
 import ProyectCard from '../ProyectCard/ProyectCard';
 import allProyects from './AllProyects';
 import { FaCode } from 'react-icons/fa';
@@ -7,10 +8,10 @@ import { FaCode } from 'react-icons/fa';
 const Proyects = () => {
   return (
     <div className={styles.proyects}>
-      <h1>
-        <FaCode /> Proyectos
+      <h1 className={app.title}>
+        <FaCode size={35} />
+        Proyectos
       </h1>
-      {/* <div className="component-proyect"> */}
       <div className={styles.allProyects}>
         {allProyects.map((e, index) => {
           return (
@@ -27,7 +28,6 @@ const Proyects = () => {
         })}
       </div>
     </div>
-    // </div>
   );
 };
 

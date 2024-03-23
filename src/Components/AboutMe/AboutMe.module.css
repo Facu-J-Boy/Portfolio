@@ -29,6 +29,17 @@
   font-size: 60px;
   margin-bottom: 0px;
   font-family: sans-serif;
+  background-image: linear-gradient(90deg, #12b886 5%, #ffd43b 95%);
+  -webkit-background-clip: text; /* Para navegadores WebKit como Chrome y Safari */
+  -webkit-text-fill-color: transparent; /* Para navegadores WebKit como Chrome y Safari */
+  background-clip: text; /* Establece la zona de relleno para el fondo o el degradado */
+  color: transparent; /* Oculta el color del texto original */
+}
+
+.info h3 {
+  font-family: monospace;
+  font-size: 25px;
+  color: #12b886;
 }
 
 .imageContainer {

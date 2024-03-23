@@ -4,11 +4,12 @@
   align-items: flex-start;
   width: 90%;
   height: auto;
-  border-top: solid 1px #333;
+  border-radius: 10px;
+  background-color: #272531;
   text-align: center;
   margin: 10px 0px;
   padding: 0px 10px;
-  color: #333;
+  color: #fff;
 }
 
 .header {
@@ -35,7 +36,7 @@
   text-align: left;
   font-family: monospace;
   font-size: 15px;
-  color: #444444;
+  color: #f0f0f0;
 }
 
 .image {

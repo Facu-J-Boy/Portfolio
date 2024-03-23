@@ -1,9 +1,10 @@
 import React, { useState } from 'react';
 import styles from './Contact.module.css';
-import { FaLinkedin } from 'react-icons/fa';
-import { BsGithub } from 'react-icons/bs';
 import { MdOutlineFileDownload } from 'react-icons/md';
 import { MdRemoveRedEye } from 'react-icons/md';
+import { FaGithub } from 'react-icons/fa';
+import { FaLinkedin } from 'react-icons/fa';
+
 import Modal from './Modal';
 
 const Contact = () => {
@@ -14,29 +15,22 @@ const Contact = () => {
   return (
     <div className={styles.contact}>
       <a href="https://www.linkedin.com/in/facundo-boy-b7a368248/">
-        <button
-          style={{ color: '#0e76a8', border: 'solid 1px #0e76a8' }}
-        >
-          <div style={{ marginRight: '2px' }}>
-            <FaLinkedin />
-          </div>
+        <button>
+          <FaLinkedin style={{ marginRight: '5px' }} />
           Linkedin
         </button>
       </a>
       <a href="https://github.com/Facu-J-Boy">
-        <button
-          style={{ color: '#171515', border: 'solid 1px #171515' }}
-        >
-          <div style={{ marginRight: '2px' }}>
-            <BsGithub />
-          </div>
+        <button>
+          <FaGithub style={{ marginRight: '5px' }} />
           GitHub
         </button>
       </a>
       <div className={styles.cvZone}>
-        <span style={{ color: '#333', border: 'none' }}>CV:</span>
+        <span style={{ color: '#fff', border: 'none' }}>CV:</span>
         <button onClick={() => setShowModal(!showModal)}>
           <MdRemoveRedEye />
+          Ver
         </button>
         {showModal && (
           <div className={styles.modal}>
@@ -49,6 +43,7 @@ const Contact = () => {
         <a href={cv} download>
           <button>
             <MdOutlineFileDownload />
+            Descargar
           </button>
         </a>
       </div>

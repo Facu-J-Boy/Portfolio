@@ -16,27 +16,28 @@
   align-items: center;
   justify-content: center;
   border-radius: 50px;
+  border: none;
   padding: 5px 10px;
   cursor: pointer;
   font-size: 17px;
-  background-color: #fff;
+  color: #fff;
+  background-color: #12b886;
 }
 
 .cvZone {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: center;
   padding-left: 5px;
   border-radius: 50px;
-  border: solid 1px #333;
+  border: none;
+  color: #fff;
+  background-color: #12b886;
 }
 
 .cvZone button {
   border: none;
-  background-color: #333;
-  color: #fff;
-  margin-left: 5px;
+  background-color: none;
 }
 
 .modal {

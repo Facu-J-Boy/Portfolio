@@ -2,6 +2,19 @@
   display: flex;
   width: 100%;
   align-items: flex-start;
+  flex-direction: column;
+}
+
+.title {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.title h1 {
+  color: #69db7c;
+  margin-left: 5px;
 }
 
 .mailInput {
@@ -25,7 +38,7 @@
   cursor: pointer;
   margin-left: 5px;
   padding: 0px 10px;
-  background-color: #333;
+  background-color: #12b886;
   color: #fff;
   border: none;
   border-radius: 5px;
@@ -52,7 +65,9 @@
   margin-left: 1px;
   font-size: 12px;
   font-weight: normal;
-  border: solid 1px #333;
+  border: none;
+  background-color: #fff;
+  color: #333;
   padding: 5px;
   animation-name: slideAnimation;
   animation-duration: 200ms;
