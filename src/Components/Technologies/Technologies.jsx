@@ -14,24 +14,7 @@ const Technologies = () => {
       </h1>
       <div className={styles.habilities}>
         <div className={styles.section}>
-          <h3>Lenguajes</h3>
-          <Skills skills={TechSkills.lenguajes} />
-        </div>
-        <div className={styles.section}>
-          <h3>Frameworks</h3>
-          <Skills skills={TechSkills.frameworks} />
-        </div>
-        <div className={styles.section}>
-          <h3>ORM</h3>
-          <Skills skills={TechSkills.ORM} />
-        </div>
-        <div className={styles.section}>
-          <h3>Base de datos</h3>
-          <Skills skills={TechSkills.database} />
-        </div>
-        <div className={styles.section}>
-          <h3>Herramientas</h3>
-          <Skills skills={TechSkills.tools} />
+          <Skills skills={TechSkills} />
         </div>
       </div>
     </div>
