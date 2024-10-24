@@ -113,7 +113,7 @@ const allProyects = [
   },
   {
     name: 'E-commerce',
-    time: 'nov. 2023 - ene. 2024',
+    time: 'nov. 2023 - feb. 2024',
     technologies: [
       {
         name: 'React',
@@ -126,8 +126,28 @@ const allProyects = [
         color: '#3178c6',
       },
       { name: 'CSS', icon: '/techSkills/css3.svg', color: '#264de4' },
+      {
+        name: 'express',
+        icon: '/techSkills/express.svg',
+        color: '#000000',
+      },
+      {
+        name: 'Node.js',
+        icon: '/techSkills/nodejs.svg',
+        color: '#339933',
+      },
+      {
+        name: 'Mongo',
+        icon: '/techSkills/mongodb.svg',
+        color: '#47A248',
+      },
+      {
+      name:'Docker',
+      icon: '/techSkills/docker.svg',
+      color: '#2496ED',
+    }
     ],
-    description: `UI de un E-commmerce usando las API's "fakestoreapi" para los productos y "jsonplaceholder" para los comentarios de los mismos, una autenticación con firebase e iconos con react-icon.`,
+    description: `Proyecto personal de un E-commmerce construido con el stack MERN, iconos con react-icon, servidor dockerizado, autenticación de Google con passport y manejo de la carga de archivos con multer`,
     images: '/proyects/E-commerce.png',
     buttons: [
       {
@@ -137,8 +157,13 @@ const allProyects = [
       },
       {
         icon: 'code',
-        text: 'código',
+        text: 'Frontend',
         url: 'https://github.com/Facu-J-Boy/E-commerce',
+      },
+      {
+        icon: 'code',
+        text: 'Backend',
+        url: 'https://github.com/Facu-J-Boy/E-commerce_API',
       },
     ],
     url: 'https://e-commerce-sigma-navy.vercel.app',

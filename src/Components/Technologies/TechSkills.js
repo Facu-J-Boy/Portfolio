@@ -1,5 +1,4 @@
-const TechSkills = {
-  lenguajes: [
+const TechSkills = [
     {
       name: 'Javascript',
       icon: '/techSkills/js.svg',
@@ -12,8 +11,7 @@ const TechSkills = {
     },
     { name: 'HTML', icon: '/techSkills/HTML5.svg', color: '#e34c26' },
     { name: 'CSS', icon: '/techSkills/css3.svg', color: '#264de4' },
-  ],
-  frameworks: [
+  
     {
       name: 'React',
       icon: '/techSkills/react.svg',
@@ -35,28 +33,41 @@ const TechSkills = {
       color: '#38B2AC',
     },
     {
+      name: 'Node.js',
+      icon: '/techSkills/nodejs.svg',
+      color: '#339933',
+    },
+    {
       name: 'express',
       icon: '/techSkills/express.svg',
       color: '#000000',
     },
-  ],
-  ORM: [
     {
       name: 'sequelize',
       icon: '/techSkills/sequelize.svg',
       color: '#0769ad',
     },
-  ],
-  database: [
     {
       name: 'PostgreSQL',
       icon: '/techSkills/postgresql.svg',
       color: '#336791',
     },
-  ],
-  tools: [
+    {
+      name: 'Mongo',
+      icon: '/techSkills/mongodb.svg',
+      color: '#47A248',
+    },
     { name: 'Git', icon: '/techSkills/Git.svg', color: '#F05032' },
-  ],
-};
+    {
+      name: 'Postman',
+      icon: '/techSkills/postman.svg',
+      color: '#FF6C37',
+    },
+    {
+      name:'Docker',
+      icon: '/techSkills/docker.svg',
+      color: '#2496ED',
+    }
+  ];
 
 export default TechSkills;
