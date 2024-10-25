@@ -16,9 +16,9 @@ const AboutMe = () => {
         </div>
       </div>
       <p>
-        Desarrollador enfocado en React y JavaScript para la creación
+        Desarrollador enfocado en React y TypeScript para la creación
         de interfaces de usuario dinámicas. Mi experiencia se extiende
-        al desarrollo de API's CRUD utilizando Node.js y PostgreSQL
+        al desarrollo de API's CRUD utilizando Node.js, con bases de datos SQL y NoSQL
         para el backend. Apasionado por construir soluciones
         eficientes y modernas, estoy listo para aportar a proyectos
         que busquen innovación y calidad técnica.
