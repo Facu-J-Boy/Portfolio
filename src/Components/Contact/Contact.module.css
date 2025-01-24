@@ -1,7 +1,7 @@
 .contact {
   display: flex;
   width: 100%;
-  padding: 20px 0px;
+  margin: 20px 0px;
   flex-direction: row;
   justify-content: center;
 }
@@ -15,30 +15,12 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  border-radius: 50px;
   border: none;
-  padding: 5px;
   cursor: pointer;
-  font-size: 17px;
-  color: #fff;
-  background-color: #12b886;
-}
-
-.cvZone {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding-left: 5px;
-  border-radius: 50px;
-  border: none;
-  color: #fff;
-  background-color: #12b886;
-}
-
-.cvZone button {
-  border: none;
-  background-color: none;
-  margin: 0px;
+  font-size: 35px;
+  color: #12b886;
+  background: none;
+  margin: 0px 20px;
 }
 
 .modal {
@@ -53,18 +35,25 @@
   height: 100vh;
 }
 
-.modal button {
+.modalButtons {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.modalButtons button {
   display: flex;
   align-self: flex-end;
+  font-size: 40px;
   margin: 20px 20px 20px 0px;
-  background-color: #333;
-  color: #fff;
+  background-color: none;
+  color: #333;
   border: none;
   width: 50px;
 }
 
 @media screen and (max-width: 1129px) {
   .contact button {
-    font-size: small;
+    font-size: 20px;
   }
 }
