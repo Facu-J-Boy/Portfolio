@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './Proyects.module.css';
 import app from '../../App.module.css';
-import ProyectCard from '../ProyectCard/ProyectCard';
+import ProyectCard from '../Cards/ProyectCard/ProyectCard';
 import allProyects from './AllProyects';
 import { FaCode } from 'react-icons/fa';
 

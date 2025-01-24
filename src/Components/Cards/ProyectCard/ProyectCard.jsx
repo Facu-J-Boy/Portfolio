@@ -2,7 +2,7 @@ import React from 'react';
 import styles from './ProyectCard.module.css';
 import { BsBoxArrowUpRight } from 'react-icons/bs';
 import { FaGithub } from 'react-icons/fa';
-import Skills from '../Skills/Skills';
+import Skills from '../../Skills/Skills';
 
 const ProyectCard = ({
   name,

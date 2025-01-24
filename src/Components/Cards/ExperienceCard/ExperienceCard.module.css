@@ -1,0 +1,98 @@
+.experienceCard {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 90%;
+  height: auto;
+  border-radius: 10px;
+  background-color: #272531;
+  text-align: center;
+  margin: 10px 0px;
+  padding: 0px 10px;
+  color: #fff;
+}
+
+.experienceCard h1 {
+  margin-bottom: 0px;
+}
+
+.experienceCard p {
+  text-align: left;
+}
+
+.subtitle {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.role {
+  color: rgb(192, 192, 192);
+}
+
+.time {
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: #19171f;
+  border-radius: 100px;
+}
+
+.footer {
+  display: flex;
+  height: 30px;
+  width: 100%;
+  align-items: center;
+  justify-content: flex-end;
+  margin-bottom: 10px;
+}
+
+.footer button {
+  border-radius: 5px;
+  height: 100%;
+  cursor: pointer;
+  border: none;
+  background-color: #19171f;
+  color: #fff;
+}
+
+.certificate {
+  cursor: pointer;
+  position: fixed; /* Hace que el div ocupe toda la pantalla */
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.8); /* Fondo semitransparente */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999; /* Se superpone a todo */
+}
+
+.certificate img {
+  max-width: 90%; /* La imagen no excede el tamaño de la pantalla */
+  max-height: 90%; /* La imagen se adapta a la altura de la pantalla */
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1129px) {
+  .experienceCard h1 {
+    font-size: larger;
+  }
+
+  .role {
+    font-size: x-small;
+  }
+
+  .time {
+    font-size: x-small;
+  }
+
+  .experienceCard p {
+    font-size: small;
+  }
+}
